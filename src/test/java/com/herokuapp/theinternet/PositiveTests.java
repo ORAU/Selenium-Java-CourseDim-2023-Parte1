@@ -17,8 +17,8 @@ public class PositiveTests {
 		 * button ,logout ,sucessful login message
 		 */
 
-		System.setProperty("user.dir", "C:\\Users\\Orlan\\eclipse-workspace\\selenium-for-beginner");
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/main/resources/chromedriver.exe");
+		//System.setProperty("user.dir", "C:\\Users\\Orlan\\eclipse-workspace\\selenium-for-beginner");
+		System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
 		//Create driver
 		WebDriver driver= new ChromeDriver();
 		//Open Test page

@@ -40,7 +40,7 @@ public void negativeUsernameTest() {
     driver.quit();
 	}
 	@Test
-	public void negativePassword() {
+	public void negativePasswordTest() {
 		//Creating driver
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();

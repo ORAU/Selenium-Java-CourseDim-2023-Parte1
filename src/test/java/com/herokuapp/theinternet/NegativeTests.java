@@ -10,10 +10,12 @@ public class NegativeTests {
 	@Test(priority=1, enabled=true)
 public void negativeUsernameTest() {
 
+		
 	//Create driver
 	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 	WebDriver driver= new ChromeDriver();
 	String url="https://the-internet.herokuapp.com/login";
+	System.out.println("Executing Negative Username Test");
 	//Open page
 	System.out.println("Openning browser");
 	driver.manage().window().maximize();
@@ -42,6 +44,7 @@ public void negativeUsernameTest() {
 	@Test(priority=2, enabled=false)
 	public void negativePasswordTest() {
 		//Creating driver
+		System.out.println("Executing Negative Password Test");
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		String url="https://the-internet.herokuapp.com/login";

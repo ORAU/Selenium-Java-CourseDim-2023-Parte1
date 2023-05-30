@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-23T14:23:24 CST" name="Surefire suite" finished-at="2023-05-23T14:23:40 CST" duration-ms="16336">
+  <suite started-at="2023-05-30T11:22:57 CST" name="Suite1" finished-at="2023-05-30T11:23:17 CST" duration-ms="19286">
     <groups>
     </groups>
-    <test started-at="2023-05-23T14:23:24 CST" name="Surefire test" finished-at="2023-05-23T14:23:40 CST" duration-ms="16336">
+    <test started-at="2023-05-30T11:22:57 CST" name="Regression1" finished-at="2023-05-30T11:23:17 CST" duration-ms="19286">
       <class name="com.herokuapp.theinternet.NegativeTests">
-        <test-method signature="negativePassword()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@41e1e210]" started-at="2023-05-23T14:23:24 CST" name="negativePassword" finished-at="2023-05-23T14:23:34 CST" duration-ms="9739" status="PASS">
+        <test-method signature="negativePasswordTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@1151e434]" started-at="2023-05-30T11:22:58 CST" name="negativePasswordTest" finished-at="2023-05-30T11:23:05 CST" duration-ms="7013" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- negativePassword -->
-        <test-method signature="negativeUsernameTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@41e1e210]" started-at="2023-05-23T14:23:34 CST" name="negativeUsernameTest" finished-at="2023-05-23T14:23:37 CST" duration-ms="3213" status="PASS">
+        </test-method> <!-- negativePasswordTest -->
+        <test-method signature="negativeUsernameTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@1151e434]" started-at="2023-05-30T11:23:05 CST" name="negativeUsernameTest" finished-at="2023-05-30T11:23:11 CST" duration-ms="6097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeUsernameTest -->
       </class> <!-- com.herokuapp.theinternet.NegativeTests -->
       <class name="com.herokuapp.theinternet.PositiveTests">
-        <test-method signature="loginTest()[pri:0, instance:com.herokuapp.theinternet.PositiveTests@27ff5d15]" started-at="2023-05-23T14:23:37 CST" name="loginTest" finished-at="2023-05-23T14:23:40 CST" duration-ms="3329" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.herokuapp.theinternet.PositiveTests@52b1beb6]" started-at="2023-05-30T11:23:11 CST" name="loginTest" finished-at="2023-05-30T11:23:17 CST" duration-ms="6119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- com.herokuapp.theinternet.PositiveTests -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>

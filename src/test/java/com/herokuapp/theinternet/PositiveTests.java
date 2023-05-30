@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PositiveTests {
-	@Test
+	@Test(priority=1, enabled=true)
 
 	public void loginTest() {
 

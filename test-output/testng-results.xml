@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T12:05:12 CST" name="AllTests" finished-at="2023-05-30T12:05:19 CST" duration-ms="7400">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T12:05:12 CST" name="AllTests" finished-at="2023-05-30T12:05:19 CST" duration-ms="7400">
+      <class name="com.herokuapp.theinternet.NegativeTests">
+        <test-method signature="negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.NegativeTests@5ab956d7]" started-at="2023-05-30T12:05:12 CST" name="negativeUsernameTest" finished-at="2023-05-30T12:05:16 CST" duration-ms="4329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeUsernameTest -->
+      </class> <!-- com.herokuapp.theinternet.NegativeTests -->
+      <class name="com.herokuapp.theinternet.PositiveTests">
+        <test-method signature="loginTest()[pri:1, instance:com.herokuapp.theinternet.PositiveTests@76a4ebf2]" started-at="2023-05-30T12:05:16 CST" name="loginTest" finished-at="2023-05-30T12:05:19 CST" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.herokuapp.theinternet.PositiveTests -->
+    </test> <!-- AllTests -->
+  </suite> <!-- AllTests -->
+</testng-results>

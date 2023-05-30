@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class NegativeTests {
-	@Test
+	@Test(priority=1, enabled=true)
 public void negativeUsernameTest() {
 
 	//Create driver
@@ -39,7 +39,7 @@ public void negativeUsernameTest() {
     //Close the browser
     driver.quit();
 	}
-	@Test
+	@Test(priority=2, enabled=false)
 	public void negativePasswordTest() {
 		//Creating driver
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");

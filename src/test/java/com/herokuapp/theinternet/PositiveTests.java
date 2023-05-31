@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,14 +20,17 @@ public class PositiveTests {
 		 */
 
 		//System.setProperty("user.dir", "C:\\Users\\Orlan\\eclipse-workspace\\selenium-for-beginner");
-		System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
+		System.setProperty("webdriver.firefox.marionette","src/main/resources/geckodriver.exe");
 		System.out.println("Executing Login Test");
 		//Create driver
-		WebDriver driver= new ChromeDriver();
+		//WebDriver driver= new ChromeDriver();
+  
+		WebDriver driver = new FirefoxDriver();
 		//Open Test page
 		driver.get("https://the-internet.herokuapp.com/login");
 		driver.manage().window().maximize();
-		
+	
 		//Enter username
 		WebElement username= driver.findElement(By.id("username"));
 		username.sendKeys("tomsmith");

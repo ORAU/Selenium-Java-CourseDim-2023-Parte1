@@ -2,7 +2,7 @@
 <!-- Este xml ejecutara solo aquellos metodos que se incluyan con etiqueta
 include
 -->
-<suite name="NegativeTestsSuite" verbose="1">
+<suite name="NegativeTestsSuite" verbose="1" parallel="tests" thread-count="2">
 
 	<test name="NegativeUsernameTest">
 		<parameter name="username" value="tommy" />

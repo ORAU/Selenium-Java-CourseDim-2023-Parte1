@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Este xml ejecutara solo aquellos metodos que se incluyan con etiqueta
+include
+-->
+<suite name="NegativeTestsSuite" verbose="1">
+
+	<test name="NegativeUsernameTest">
+		<parameter name="username" value="tommy" />
+		<parameter name="password" value="SuperSecretPassword!" />
+		<parameter name="expectedMessage" value="Your username is invalid!" />
+		<classes>
+			<class name="com.herokuapp.theinternet.NegativeTests2"/>
+
+		</classes>
+	</test>
+	<test name="NegativePasswordTest">
+		<parameter name="username" value="tomsmith" />
+		<parameter name="password" value="otherPassword" />
+		<parameter name="expectedMessage" value="Your password is invalid!" />
+		<classes>
+			<class name="com.herokuapp.theinternet.NegativeTests2"/>
+
+		</classes>
+	</test>
+</suite>

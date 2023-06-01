@@ -1,6 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-  
+ <!-- Este xml ejecutara solo aquellos test que pertenezcan al grupo de smoketests
+-->
 <suite name="NegativeTestsSuite" verbose="1" >
+ <groups>
+    <run>
+      <include name="smokeTests"/>
+    </run>
+  </groups>
 
   <test name="NegativeTests">
     <classes>

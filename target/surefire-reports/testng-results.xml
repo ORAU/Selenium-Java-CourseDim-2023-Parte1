@@ -1,23 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-31T15:55:20 CST" name="AllTests" finished-at="2023-05-31T15:55:37 CST" duration-ms="17571">
+  <suite started-at="2023-05-31T19:16:59 CST" name="NegativeTestsSuite" finished-at="2023-05-31T19:17:06 CST" duration-ms="7361">
     <groups>
+      <group name="smokeTests">
+        <method signature="NegativeTests2.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.NegativeTests2@4b0d79fc]" name="negativeLoginTest" class="com.herokuapp.theinternet.NegativeTests2"/>
+        <method signature="NegativeTests2.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.NegativeTests2@74ea2410]" name="negativeLoginTest" class="com.herokuapp.theinternet.NegativeTests2"/>
+      </group> <!-- smokeTests -->
+      <group name="negativeTests">
+        <method signature="NegativeTests2.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.NegativeTests2@4b0d79fc]" name="negativeLoginTest" class="com.herokuapp.theinternet.NegativeTests2"/>
+        <method signature="NegativeTests2.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.NegativeTests2@74ea2410]" name="negativeLoginTest" class="com.herokuapp.theinternet.NegativeTests2"/>
+      </group> <!-- negativeTests -->
     </groups>
-    <test started-at="2023-05-31T15:55:20 CST" name="AllTests" finished-at="2023-05-31T15:55:37 CST" duration-ms="17571">
-      <class name="com.herokuapp.theinternet.NegativeTests">
-        <test-method signature="negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.NegativeTests@1151e434]" started-at="2023-05-31T15:55:20 CST" name="negativeUsernameTest" finished-at="2023-05-31T15:55:26 CST" duration-ms="6000" status="PASS">
+    <test started-at="2023-05-31T19:16:59 CST" name="NegativeUsernameTest" finished-at="2023-05-31T19:17:03 CST" duration-ms="4443">
+      <class name="com.herokuapp.theinternet.NegativeTests2">
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.NegativeTests2@4b0d79fc]" started-at="2023-05-31T19:16:59 CST" name="negativeLoginTest" finished-at="2023-05-31T19:17:03 CST" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tommy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your username is invalid!]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- negativeUsernameTest -->
-      </class> <!-- com.herokuapp.theinternet.NegativeTests -->
-      <class name="com.herokuapp.theinternet.PositiveTests">
-        <test-method signature="loginTest()[pri:1, instance:com.herokuapp.theinternet.PositiveTests@52b1beb6]" started-at="2023-05-31T15:55:26 CST" name="loginTest" finished-at="2023-05-31T15:55:37 CST" duration-ms="11512" status="PASS">
+        </test-method> <!-- negativeLoginTest -->
+      </class> <!-- com.herokuapp.theinternet.NegativeTests2 -->
+    </test> <!-- NegativeUsernameTest -->
+    <test started-at="2023-05-31T19:17:03 CST" name="NegativePasswordTest" finished-at="2023-05-31T19:17:06 CST" duration-ms="2885">
+      <class name="com.herokuapp.theinternet.NegativeTests2">
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.NegativeTests2@74ea2410]" started-at="2023-05-31T19:17:03 CST" name="negativeLoginTest" finished-at="2023-05-31T19:17:06 CST" duration-ms="2883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[otherPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password is invalid!]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.herokuapp.theinternet.PositiveTests -->
-    </test> <!-- AllTests -->
-  </suite> <!-- AllTests -->
+        </test-method> <!-- negativeLoginTest -->
+      </class> <!-- com.herokuapp.theinternet.NegativeTests2 -->
+    </test> <!-- NegativePasswordTest -->
+  </suite> <!-- NegativeTestsSuite -->
 </testng-results>

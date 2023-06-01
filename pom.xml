@@ -43,7 +43,7 @@
 				
 				<configuration>
 					<suiteXmlFiles>
-				<suiteXmlFile>src/test/resources/TestSuites/testsuites.xml</suiteXmlFile>
+				<suiteXmlFile>src/test/resources/TestSuites/negativeTests_3.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 				

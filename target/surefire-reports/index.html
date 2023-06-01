@@ -103,12 +103,12 @@
                     <div class="method-list-content passed suite-NegativeTestsSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NegativeTestsSuite" title="com.herokuapp.theinternet.NegativeTests2" class="method navigator-link" hash-for-method="negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!)">negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-NegativeTestsSuite" title="com.herokuapp.theinternet.NegativeTests2" class="method navigator-link" hash-for-method="negativeLoginTest(tomsmith, otherPassword, Your password is invalid!)">negativeLoginTest(tomsmith, otherPassword, Your password is invalid!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NegativeTestsSuite" title="com.herokuapp.theinternet.NegativeTests2" class="method navigator-link" hash-for-method="negativeLoginTest(tomsmith, otherPassword, Your password is invalid!)">negativeLoginTest(tomsmith, otherPassword, Your password is invalid!)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-NegativeTestsSuite" title="com.herokuapp.theinternet.NegativeTests2" class="method navigator-link" hash-for-method="negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!)">negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-NegativeTestsSuite -->
@@ -131,18 +131,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!)">
-                  </a> <!-- negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!) -->
-                  <span class="method-name">negativeLoginTest</span>
-                  <span class="parameters">(tommy,SuperSecretPassword!,Your username is invalid!)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="negativeLoginTest(tomsmith, otherPassword, Your password is invalid!)">
                   </a> <!-- negativeLoginTest(tomsmith, otherPassword, Your password is invalid!) -->
                   <span class="method-name">negativeLoginTest</span>
                   <span class="parameters">(tomsmith,otherPassword,Your password is invalid!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!)">
+                  </a> <!-- negativeLoginTest(tommy, SuperSecretPassword!, Your username is invalid!) -->
+                  <span class="method-name">negativeLoginTest</span>
+                  <span class="parameters">(tommy,SuperSecretPassword!,Your username is invalid!)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -156,8 +156,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;NegativeTestsSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;NegativeUsernameTest&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;NegativeTestsSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;NegativeUsernameTest&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;SuperSecretPassword!&quot;/&gt;
     &lt;parameter name=&quot;expectedMessage&quot; value=&quot;Your username is invalid!&quot;/&gt;
     &lt;parameter name=&quot;username&quot; value=&quot;tommy&quot;/&gt;
@@ -165,7 +165,7 @@
       &lt;class name=&quot;com.herokuapp.theinternet.NegativeTests2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- NegativeUsernameTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;NegativePasswordTest&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;NegativePasswordTest&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;otherPassword&quot;/&gt;
     &lt;parameter name=&quot;expectedMessage&quot; value=&quot;Your password is invalid!&quot;/&gt;
     &lt;parameter name=&quot;username&quot; value=&quot;tomsmith&quot;/&gt;
@@ -233,16 +233,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'negativeLoginTest')
 data.setCell(0, 2, 'com.herokuapp.theinternet.NegativeTests2')
-data.setCell(0, 3, 4392);
+data.setCell(0, 3, 9261);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'negativeLoginTest')
 data.setCell(1, 2, 'com.herokuapp.theinternet.NegativeTests2')
-data.setCell(1, 3, 2883);
+data.setCell(1, 3, 9232);
 window.suiteTableData['NegativeTestsSuite']= { tableData: data, tableDiv: 'times-div-NegativeTestsSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-NegativeTestsSuite">
               </div> <!-- times-div-NegativeTestsSuite -->
             </div> <!-- times-div -->
@@ -275,7 +275,7 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">negativeLoginTest(tomsmith, otherPassword, Your password is invalid!)</span>
-                <span class="method-start">4433 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

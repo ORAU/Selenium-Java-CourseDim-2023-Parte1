@@ -6,9 +6,9 @@
 		<parameter name="browser" value="chrome"/>
 		
 		<classes>
-			<class name="com.herokuapp.theinternet.LoginTests" >
+			<class name="com.herokuapp.theinternet.ExceptionsTests" >
 		<methods>
-		<include name="loginTest"></include>	
+		<include name="noSuchElementExceptionTest"></include>	
 		</methods>	
 			</class>	
 		</classes>

@@ -40,7 +40,7 @@ public class ExceptionsTests {
 	}
 
 	@Test(priority = 1, enabled = true, groups = { "positiveTests", "smokeTests" })
-	public void homeworkTest() {
+	public void noSuchElementExceptionTest() {
 
 		/*
 		 * Steps open page, click on Add button, validate second row is displayed
@@ -57,6 +57,12 @@ public class ExceptionsTests {
 		WebElement addBtn = driver.findElement(By.id("add_btn"));
 		addBtn.click();
 
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// Find second row elemnent
 		WebElement row = driver.findElement(By.xpath("//div[@id='row2']/input[@type='text' and @class='input-field']"));
 		//Otra forma de identificar el elemento seria xpath: (//input[@class='input-field'])[2]: pero es mas vulnerable

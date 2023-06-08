@@ -4,13 +4,13 @@
   <test thread-count="5" name="DebugLoginTests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.herokuapp.theinternet.LoginTests">
+      <class name="com.herokuapp.theinternet.ExceptionsTests">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="noSuchElementExceptionTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.LoginTests -->
+      </class> <!-- com.herokuapp.theinternet.ExceptionsTests -->
     </classes>
   </test> <!-- DebugLoginTests(failed) -->
 </suite> <!-- Failed suite [DebugTests] -->

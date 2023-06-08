@@ -1,5 +1,7 @@
 package com.herokuapp.theinternet;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +13,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExceptionsTests {
 	private WebDriver driver;
@@ -64,9 +68,11 @@ public class ExceptionsTests {
 			e.printStackTrace();
 		}
 		// Find second row elemnent
-		WebElement row = driver.findElement(By.xpath("//div[@id='row2']/input[@type='text' and @class='input-field']"));
+		//WebElement row = driver.findElement(By.xpath("//div[@id='row2']/input[@type='text' and @class='input-field']"));
 		//Otra forma de identificar el elemento seria xpath: (//input[@class='input-field'])[2]: pero es mas vulnerable
-		
+		//Agregando el explicitly wait
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10000));
+		WebElement row=		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[@id='row2']/input[@type='text' and @class='input-field']"))));
 		// Verificacion of new row
 		Assert.assertTrue(row.isDisplayed(), "The second row is not displayed");
 

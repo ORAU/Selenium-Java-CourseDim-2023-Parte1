@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-07T19:54:25 CST" name="DebugTests" finished-at="2023-06-07T19:54:43 CST" duration-ms="18115">
+  <suite started-at="2023-06-08T15:46:27 CST" name="DebugTests" finished-at="2023-06-08T15:46:44 CST" duration-ms="16313">
     <groups>
       <group name="positiveTests">
         <method signature="ExceptionsTests.noSuchElementExceptionTest()[pri:1, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" name="noSuchElementExceptionTest" class="com.herokuapp.theinternet.ExceptionsTests"/>
@@ -11,9 +11,9 @@
         <method signature="ExceptionsTests.noSuchElementExceptionTest()[pri:1, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" name="noSuchElementExceptionTest" class="com.herokuapp.theinternet.ExceptionsTests"/>
       </group> <!-- smokeTests -->
     </groups>
-    <test started-at="2023-06-07T19:54:25 CST" name="DebugLoginTests" finished-at="2023-06-07T19:54:43 CST" duration-ms="18115">
+    <test started-at="2023-06-08T15:46:27 CST" name="DebugLoginTests" finished-at="2023-06-08T15:46:44 CST" duration-ms="16313">
       <class name="com.herokuapp.theinternet.ExceptionsTests">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" started-at="2023-06-07T19:54:25 CST" name="setUp" finished-at="2023-06-07T19:54:27 CST" duration-ms="1665" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" started-at="2023-06-08T15:46:27 CST" name="setUp" finished-at="2023-06-08T15:46:30 CST" duration-ms="2774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,11 +24,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="noSuchElementExceptionTest()[pri:1, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" started-at="2023-06-07T19:54:27 CST" name="noSuchElementExceptionTest" finished-at="2023-06-07T19:54:43 CST" duration-ms="16124" status="PASS">
+        <test-method signature="noSuchElementExceptionTest()[pri:1, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" started-at="2023-06-08T15:46:30 CST" name="noSuchElementExceptionTest" finished-at="2023-06-08T15:46:43 CST" duration-ms="13172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noSuchElementExceptionTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" started-at="2023-06-07T19:54:43 CST" name="tearDown" finished-at="2023-06-07T19:54:43 CST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.ExceptionsTests@1530c739]" started-at="2023-06-08T15:46:43 CST" name="tearDown" finished-at="2023-06-08T15:46:44 CST" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

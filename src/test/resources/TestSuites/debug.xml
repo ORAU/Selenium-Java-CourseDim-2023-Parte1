@@ -9,6 +9,7 @@
 			<class name="com.herokuapp.theinternet.ExceptionsTests" >
 		<methods>
 		<include name="noSuchElementExceptionTest"></include>	
+		<include name="elementNotInteractableException"></include>
 		</methods>	
 			</class>	
 		</classes>

@@ -8,8 +8,9 @@
 		<classes>
 			<class name="com.herokuapp.theinternet.ExceptionsTests" >
 		<methods>
-		<include name="noSuchElementExceptionTest"></include>	
-		<include name="elementNotInteractableException"></include>
+
+		<include name="staleElementReferenceExceptionTest"></include>
+		
 		</methods>	
 			</class>	
 		</classes>

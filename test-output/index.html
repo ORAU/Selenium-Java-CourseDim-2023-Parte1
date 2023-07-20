@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-DebugTests" class="navigator-link">
-              <span class="suite-name border-failed">DebugTests</span>
+            <a href="#" panel-name="suite-AllTests" class="navigator-link">
+              <span class="suite-name border-passed">AllTests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-DebugTests" class="navigator-link ">
-                    <span>C:\Users\orlan\eclipse-workspace\Selenium-Java-CourseDim-2023-Parte1\src\test\resources\TestSuites\debug.xml</span>
+                  <a href="#" panel-name="test-xml-AllTests" class="navigator-link ">
+                    <span>C:\Users\orlan\eclipse-workspace\Selenium-Java-CourseDim-2023-Parte1\src\test\resources\TestSuites\testsuites.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-DebugTests" class="navigator-link ">
+                  <a href="#" panel-name="testlist-AllTests" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-DebugTests" class="navigator-link ">
+                  <a href="#" panel-name="group-AllTests" class="navigator-link ">
                     <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-DebugTests" class="navigator-link ">
+                  <a href="#" panel-name="times-AllTests" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-DebugTests" class="navigator-link ">
+                  <a href="#" panel-name="reporter-AllTests" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-DebugTests" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-AllTests" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-DebugTests" class="navigator-link ">
+                  <a href="#" panel-name="chronological-AllTests" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-DebugTests" class="hide-methods failed suite-DebugTests"> (hide)</a> <!-- hide-methods failed suite-DebugTests -->
-                      <a href="#" panel-name="suite-DebugTests" class="show-methods failed suite-DebugTests"> (show)</a> <!-- show-methods failed suite-DebugTests -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AllTests" class="hide-methods passed suite-AllTests"> (hide)</a> <!-- hide-methods passed suite-AllTests -->
+                      <a href="#" panel-name="suite-AllTests" class="show-methods passed suite-AllTests"> (show)</a> <!-- show-methods passed suite-AllTests -->
                     </span>
-                    <div class="method-list-content failed suite-DebugTests">
+                    <div class="method-list-content passed suite-AllTests">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DebugTests" title="com.herokuapp.theinternet.ExceptionsTests" class="method navigator-link" hash-for-method="staleElementReferenceExceptionTest">staleElementReferenceExceptionTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-DebugTests -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests" class="method navigator-link" hash-for-method="negativePasswordTest">negativePasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests" class="method navigator-link" hash-for-method="negativeUsernameTest">negativeUsernameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AllTests -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,80 +127,90 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-DebugTests" class="panel DebugTests">
-          <div class="suite-DebugTests-class-failed">
+        <div panel-name="suite-AllTests" class="panel AllTests">
+          <div class="suite-AllTests-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.herokuapp.theinternet.ExceptionsTests</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.loginpagetest.PositiveLoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="staleElementReferenceExceptionTest">
-                  </a> <!-- staleElementReferenceExceptionTest -->
-                  <span class="method-name">staleElementReferenceExceptionTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.id: instructions (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\orlan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57906/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b7c6cad5aa5be012d2bef62429e788d
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.herokuapp.theinternet.ExceptionsTests.staleElementReferenceExceptionTest(ExceptionsTests.java:147)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-DebugTests-class-failed -->
-        </div> <!-- panel DebugTests -->
-        <div panel-name="test-xml-DebugTests" class="panel">
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.loginpagetest.NegativeLoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativePasswordTest">
+                  </a> <!-- negativePasswordTest -->
+                  <span class="method-name">negativePasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeUsernameTest">
+                  </a> <!-- negativeUsernameTest -->
+                  <span class="method-name">negativeUsernameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+        </div> <!-- panel AllTests -->
+        <div panel-name="test-xml-AllTests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\orlan\eclipse-workspace\Selenium-Java-CourseDim-2023-Parte1\src\test\resources\TestSuites\debug.xml</span>
+            <span class="header-content">C:\Users\orlan\eclipse-workspace\Selenium-Java-CourseDim-2023-Parte1\src\test\resources\TestSuites\testsuites.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;DebugTests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;DebugLoginTests&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite name=&quot;AllTests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AllTests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.herokuapp.theinternet.ExceptionsTests&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;staleElementReferenceExceptionTest&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.herokuapp.theinternet.ExceptionsTests --&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.loginpagetest.NegativeLoginTests&quot;/&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.loginpagetest.PositiveLoginTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- DebugLoginTests --&gt;
-&lt;/suite&gt; &lt;!-- DebugTests --&gt;
+  &lt;/test&gt; &lt;!-- AllTests --&gt;
+&lt;/suite&gt; &lt;!-- AllTests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-DebugTests" class="panel">
+        <div panel-name="testlist-AllTests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for DebugTests</span>
+            <span class="header-content">Tests for AllTests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">DebugLoginTests (1 class)</span>
+                <span class="test-name">AllTests (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-DebugTests" class="panel">
+        <div panel-name="group-AllTests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for DebugTests</span>
+            <span class="header-content">Groups for AllTests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">positiveTests</span>
+              <span class="test-group-name">negativeTests</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">staleElementReferenceExceptionTest</span>
+                <span class="method-in-group-name">negativePasswordTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">negativeUsernameTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -198,87 +218,85 @@ Session ID: 8b7c6cad5aa5be012d2bef62429e788d
               <span class="test-group-name">smokeTests</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">staleElementReferenceExceptionTest</span>
+                <span class="method-in-group-name">negativeUsernameTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-DebugTests" class="panel">
+        <div panel-name="times-AllTests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for DebugTests</span>
+            <span class="header-content">Times for AllTests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_DebugTests');
-function tableData_DebugTests() {
+suiteTableInitFunctions.push('tableData_AllTests');
+function tableData_AllTests() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'staleElementReferenceExceptionTest')
-data.setCell(0, 2, 'com.herokuapp.theinternet.ExceptionsTests')
-data.setCell(0, 3, 7654);
-window.suiteTableData['DebugTests']= { tableData: data, tableDiv: 'times-div-DebugTests'}
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.herokuapp.theinternet.loginpagetest.PositiveLoginTests')
+data.setCell(0, 3, 5483);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'negativePasswordTest')
+data.setCell(1, 2, 'com.herokuapp.theinternet.loginpagetest.NegativeLoginTests')
+data.setCell(1, 3, 4605);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'negativeUsernameTest')
+data.setCell(2, 2, 'com.herokuapp.theinternet.loginpagetest.NegativeLoginTests')
+data.setCell(2, 3, 4005);
+window.suiteTableData['AllTests']= { tableData: data, tableDiv: 'times-div-AllTests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
-              <div id="times-div-DebugTests">
-              </div> <!-- times-div-DebugTests -->
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-AllTests">
+              </div> <!-- times-div-AllTests -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-DebugTests" class="panel">
+        <div panel-name="reporter-AllTests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for DebugTests</span>
+            <span class="header-content">Reporter output for AllTests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-DebugTests" class="panel">
+        <div panel-name="ignored-methods-AllTests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.herokuapp.theinternet.ExceptionsTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">invalidElementStateExceptionTest</span>
-                <br/>
-                <span class="ignored-method-name">noSuchElementExceptionTest</span>
-                <br/>
-                <span class="ignored-method-name">elementNotInteractableException</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-DebugTests" class="panel">
+        <div panel-name="chronological-AllTests" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.herokuapp.theinternet.ExceptionsTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetest.NegativeLoginTests</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">staleElementReferenceExceptionTest</span>
-                <span class="method-start">1706 ms</span>
+                <span class="method-name">negativeUsernameTest</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">9369 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">negativePasswordTest</span>
+                <span class="method-start">4018 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetest.PositiveLoginTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">8626 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -11,7 +11,7 @@
 		</groups>
 
 		<classes>
-			<class name="com.herokuapp.theinternet.LoginTests" />
+			<class name="com.herokuapp.theinternet.loginpagetest.LoginTests" />
 		</classes>
 	</test>
 	<test name="NegativeUsernameTest">
@@ -20,7 +20,7 @@
 		<parameter name="expectedMessage" value="Your username is invalid!" />
 		<parameter name="browser" value="chrome"/>
 		<classes>
-			<class name="com.herokuapp.theinternet.LoginTests">
+			<class name="com.herokuapp.theinternet.loginpagetest.LoginTests">
 				<methods>
 					<include name="negativeLoginTest" />
 				</methods>
@@ -36,7 +36,7 @@
 		<parameter name="expectedMessage" value="Your password is invalid!" />
 		<parameter name="browser" value="firefox"/>
 		<classes>
-			<class name="com.herokuapp.theinternet.LoginTests">
+			<class name="com.herokuapp.theinternet.loginpagetest.LoginTests">
 				<methods>
 					<include name="negativeLoginTest" />
 				</methods>

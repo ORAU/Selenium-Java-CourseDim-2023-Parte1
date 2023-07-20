@@ -10,7 +10,7 @@
 
   <test name="NegativeLoginTests">
     <classes>
-      <class name="com.herokuapp.theinternet.NegativeLoginTests"/>
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
     </classes>
   </test>
 </suite>

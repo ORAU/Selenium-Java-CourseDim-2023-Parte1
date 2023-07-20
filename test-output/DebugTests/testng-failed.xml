@@ -4,13 +4,13 @@
   <test thread-count="5" name="DebugLoginTests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.herokuapp.theinternet.ExceptionsTests">
+      <class name="com.herokuapp.theinternet.loginpagetest.ExceptionsTests">
         <methods>
+          <include name="staleElementReferenceExceptionTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="staleElementReferenceExceptionTest"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.ExceptionsTests -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.ExceptionsTests -->
     </classes>
   </test> <!-- DebugLoginTests(failed) -->
 </suite> <!-- Failed suite [DebugTests] -->

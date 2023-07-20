@@ -4,8 +4,8 @@
 
   <test name="AllTests">
     <classes>
-      <class name="com.herokuapp.theinternet.NegativeTests"/>
-      <class name="com.herokuapp.theinternet.PositiveTests"/>
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
+      <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests"/>
     </classes>
   </test>
 </suite>

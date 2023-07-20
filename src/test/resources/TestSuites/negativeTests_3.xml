@@ -9,7 +9,7 @@ include
 		<parameter name="password" value="SuperSecretPassword!" />
 		<parameter name="expectedMessage" value="Your username is invalid!" />
 		<classes>
-			<class name="com.herokuapp.theinternet.NegativeLoginTests2"/>
+			<class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests2"/>
 
 		</classes>
 	</test>
@@ -18,7 +18,7 @@ include
 		<parameter name="password" value="otherPassword" />
 		<parameter name="expectedMessage" value="Your password is invalid!" />
 		<classes>
-			<class name="com.herokuapp.theinternet.NegativeLoginTests2"/>
+			<class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests2"/>
 
 		</classes>
 	</test>

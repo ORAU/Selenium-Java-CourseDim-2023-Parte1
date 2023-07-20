@@ -1,88 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-12T18:09:25 CST" name="DebugTests" finished-at="2023-06-12T18:09:35 CST" duration-ms="9636">
+  <suite started-at="2023-07-20T16:32:05 CST" name="AllTests" finished-at="2023-07-20T16:32:19 CST" duration-ms="14162">
     <groups>
-      <group name="positiveTests">
-        <method signature="ExceptionsTests.staleElementReferenceExceptionTest()[pri:4, instance:com.herokuapp.theinternet.ExceptionsTests@6e9175d8]" name="staleElementReferenceExceptionTest" class="com.herokuapp.theinternet.ExceptionsTests"/>
-      </group> <!-- positiveTests -->
       <group name="smokeTests">
-        <method signature="ExceptionsTests.staleElementReferenceExceptionTest()[pri:4, instance:com.herokuapp.theinternet.ExceptionsTests@6e9175d8]" name="staleElementReferenceExceptionTest" class="com.herokuapp.theinternet.ExceptionsTests"/>
+        <method signature="NegativeLoginTests.negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@5ab956d7]" name="negativeUsernameTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
       </group> <!-- smokeTests -->
+      <group name="negativeTests">
+        <method signature="NegativeLoginTests.negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@5ab956d7]" name="negativeUsernameTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
+        <method signature="NegativeLoginTests.negativePasswordTest()[pri:2, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@5ab956d7]" name="negativePasswordTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
+      </group> <!-- negativeTests -->
     </groups>
-    <test started-at="2023-06-12T18:09:25 CST" name="DebugLoginTests" finished-at="2023-06-12T18:09:35 CST" duration-ms="9636">
-      <class name="com.herokuapp.theinternet.ExceptionsTests">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.herokuapp.theinternet.ExceptionsTests@6e9175d8]" started-at="2023-06-12T18:09:25 CST" name="setUp" finished-at="2023-06-12T18:09:27 CST" duration-ms="1704" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-07-20T16:32:05 CST" name="AllTests" finished-at="2023-07-20T16:32:19 CST" duration-ms="14162">
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests">
+        <test-method signature="negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@5ab956d7]" started-at="2023-07-20T16:32:05 CST" name="negativeUsernameTest" finished-at="2023-07-20T16:32:09 CST" duration-ms="4005" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="staleElementReferenceExceptionTest()[pri:4, instance:com.herokuapp.theinternet.ExceptionsTests@6e9175d8]" started-at="2023-06-12T18:09:27 CST" name="staleElementReferenceExceptionTest" finished-at="2023-06-12T18:09:34 CST" duration-ms="7654" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to no longer be visible: By.id: instructions (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\orlan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57906/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b7c6cad5aa5be012d2bef62429e788d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.id: instructions (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\orlan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57906/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b7c6cad5aa5be012d2bef62429e788d
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.herokuapp.theinternet.ExceptionsTests.staleElementReferenceExceptionTest(ExceptionsTests.java:147)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        </test-method> <!-- negativeUsernameTest -->
+        <test-method signature="negativePasswordTest()[pri:2, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@5ab956d7]" started-at="2023-07-20T16:32:09 CST" name="negativePasswordTest" finished-at="2023-07-20T16:32:14 CST" duration-ms="4605" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- staleElementReferenceExceptionTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.ExceptionsTests@6e9175d8]" started-at="2023-06-12T18:09:34 CST" name="tearDown" finished-at="2023-06-12T18:09:35 CST" duration-ms="211" status="PASS">
+        </test-method> <!-- negativePasswordTest -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoginTests -->
+      <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests">
+        <test-method signature="loginTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@76a4ebf2]" started-at="2023-07-20T16:32:14 CST" name="loginTest" finished-at="2023-07-20T16:32:19 CST" duration-ms="5483" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.ExceptionsTests -->
-    </test> <!-- DebugLoginTests -->
-  </suite> <!-- DebugTests -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.PositiveLoginTests -->
+    </test> <!-- AllTests -->
+  </suite> <!-- AllTests -->
 </testng-results>

@@ -8,9 +8,9 @@
     </run>
   </groups>
 
-  <test name="NegativeTests">
+  <test name="NegativeLoginTests">
     <classes>
-      <class name="com.herokuapp.theinternet.NegativeTests"/>
+      <class name="com.herokuapp.theinternet.NegativeLoginTests"/>
     </classes>
   </test>
 </suite>

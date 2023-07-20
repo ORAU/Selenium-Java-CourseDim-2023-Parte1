@@ -5,7 +5,7 @@
 
   <test name="NegativeTests">
     <classes>
-      <class name="com.herokuapp.theinternet.NegativeTests">
+      <class name="com.herokuapp.theinternet.NegativeLoginTests">
 		  <methods>
 			  <exclude name="negativePasswordTest" />
 		  </methods>

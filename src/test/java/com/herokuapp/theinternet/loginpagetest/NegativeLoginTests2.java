@@ -1,4 +1,4 @@
-package com.herokuapp.theinternet;
+package com.herokuapp.theinternet.loginpagetest;
 
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-public class NegativeTests2 {
+public class NegativeLoginTests2 {
 	@Test(priority=1, enabled=true,groups = { "negativeTests", "smokeTests" })
 	@Parameters({"username","password","expectedMessage"})
 public void negativeLoginTest(String username,String password,String expectedMessage) {

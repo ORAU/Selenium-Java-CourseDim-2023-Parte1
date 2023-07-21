@@ -13,35 +13,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.herokuapp.theinternet.base.BaseTest;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ExceptionsTests {
-	private WebDriver driver;
+public class ExceptionsTests extends BaseTest{
+	
 
-	@Parameters("browser")
-	@BeforeMethod(alwaysRun = true)
-	private void setUp(@Optional("chrome") String browser) {
-
-		// Create driver
-		switch (browser) {
-		case "chrome":
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-			driver = new ChromeDriver();
-			break;
-		case "firefox":
-			System.setProperty("webdriver.firefox.marionette", "src/main/resources/geckodriver.exe");
-			driver = new FirefoxDriver();
-			break;
-		default:
-			System.out.println("No se logro establecer la conexion con el navegador:" + browser
-					+ " \n se ejecutara con navegador Chrome.");
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-			driver = new ChromeDriver();
-			break;
-		}
-
-	}
 
 	@Test(priority = 1, enabled = true, groups = { "positiveTests", "smokeTests" })
 	public void noSuchElementExceptionTest() {
@@ -147,8 +127,5 @@ public class ExceptionsTests {
 		Assert.assertTrue(wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("instructions"))),"Element is displayed");
 		
 	}
-	@AfterMethod(alwaysRun = true)
-	private void tearDown() {
-		driver.quit();
-	}
+
 }

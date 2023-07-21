@@ -9,7 +9,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PositiveLoginTests {
+import com.herokuapp.theinternet.base.BaseTest;
+
+public class PositiveLoginTests extends BaseTest {
 	@Test(priority=1, enabled=true)
 
 	public void loginTest() {
@@ -24,10 +26,7 @@ public class PositiveLoginTests {
 		System.setProperty("webdriver.firefox.marionette","src/main/resources/geckodriver.exe");
 		System.out.println("Executing Login Test");
 		//Create driver
-		//WebDriver driver= new ChromeDriver();
-  
-		WebDriver driver = new FirefoxDriver();
-		//Open Test page
+		
 		driver.get("https://the-internet.herokuapp.com/login");
 		driver.manage().window().maximize();
 	
@@ -52,6 +51,7 @@ public class PositiveLoginTests {
 		//Verificacion new url
 		String expectedUrl="https://the-internet.herokuapp.com/secure";
 		String resultUrl=driver.getCurrentUrl();
+		System.out.println(resultUrl);
 		Assert.assertEquals(resultUrl, expectedUrl, "The current url is not as expected");
 		
 		//Button is visible
@@ -63,8 +63,9 @@ public class PositiveLoginTests {
 		WebElement messageLabel=driver.findElement(By.xpath("//div[@class='flash success']"));
 		String actualMessage=messageLabel.getText();
 		String expectedMessage="You logged into a secure area!";
+		System.out.println(actualMessage);
 		Assert.assertTrue(actualMessage.contains(expectedMessage), "Message is not as expected");
-		driver.quit();
+	
 		
 	}
 }

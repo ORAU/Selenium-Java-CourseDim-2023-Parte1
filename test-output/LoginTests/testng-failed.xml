@@ -11,9 +11,9 @@
     <classes>
       <class name="com.herokuapp.theinternet.loginpagetest.LoginTests">
         <methods>
-          <include name="setUp"/>
-          <include name="loginTest"/>
           <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.herokuapp.theinternet.loginpagetest.LoginTests -->
     </classes>

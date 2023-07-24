@@ -9,18 +9,18 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
-	protected WebDriver driver;
+	public WebDriver driver;
 
 	@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)
 	public void setUp(@Optional("chrome") String browser) {
 		BrowserDriverFactory factory=new BrowserDriverFactory(browser);
-		factory.createDriver();
+		driver=factory.createDriver();
 		driver.manage().window().maximize();
 }
 	
 	@AfterMethod(alwaysRun = true)
-	private void tearDown() {
+	public void tearDown() {
 		driver.quit();
 	}
 	}

@@ -12,33 +12,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class LoginTests {
+import com.herokuapp.theinternet.base.TestUtilities;
 
-	private WebDriver driver;
+public class LoginTests extends TestUtilities {
 
-	@Parameters("browser")
-	@BeforeMethod(alwaysRun = true)
-	private void setUp(String browser) {
-
-		// Create driver
-		switch (browser) {
-		case "chrome":
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-			driver = new ChromeDriver();
-			break;
-		case "firefox":
-			System.setProperty("webdriver.firefox.marionette", "src/main/resources/geckodriver.exe");
-			driver=new FirefoxDriver();
-			break;
-		default:
-			System.out.println("No se logro establecer la conexion con el navegador:"+browser+" \n se ejecutara con navegador Chrome.");
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-			driver = new ChromeDriver();
-			break;
-		}
-		
-
-	}
+	
 
 	@Test(priority = 1, enabled = true, groups = { "positiveTests", "smokeTests" })
 	public void loginTest() {
@@ -57,8 +35,7 @@ public class LoginTests {
 		// WebDriver driver = new FirefoxDriver();--para firefox browser
 		// Open Test page
 		driver.get("https://the-internet.herokuapp.com/login");
-		driver.manage().window().maximize();
-
+		
 		// Enter username
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("tomsmith");
@@ -132,8 +109,4 @@ public class LoginTests {
 
 	}
 
-	@AfterMethod(alwaysRun = true)
-	private void tearDown() {
-		driver.quit();
-	}
 }

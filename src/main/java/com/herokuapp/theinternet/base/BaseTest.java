@@ -9,7 +9,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
-	public WebDriver driver;
+	protected WebDriver driver;
 
 	@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)

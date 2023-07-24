@@ -2,7 +2,7 @@
   
 <suite name="AllTests" verbose="1" >
 
-  <test name="AllTests">
+  <test name="AllTests" parallel="methods" thread-count="5">
     <classes>
       <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
       <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests"/>

@@ -10,8 +10,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.herokuapp.theinternet.base.BaseTest;
+import com.herokuapp.theinternet.base.TestUtilities;
 
-public class PositiveLoginTests extends BaseTest {
+public class PositiveLoginTests extends TestUtilities {
 	@Test(priority=1, enabled=true)
 
 	public void loginTest() {
@@ -23,7 +24,7 @@ public class PositiveLoginTests extends BaseTest {
 
 		//System.setProperty("user.dir", "C:\\Users\\Orlan\\eclipse-workspace\\selenium-for-beginner");
 		//System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
-		System.setProperty("webdriver.firefox.marionette","src/main/resources/geckodriver.exe");
+		//System.setProperty("webdriver.firefox.marionette","src/main/resources/geckodriver.exe");
 		System.out.println("Executing Login Test");
 		//Create driver
 		
@@ -36,6 +37,7 @@ public class PositiveLoginTests extends BaseTest {
 		//Enter password
 		WebElement password=driver.findElement(By.id("password"));
 		password.sendKeys("SuperSecretPassword!");
+		sleep(5000);
 		//Click login
 		WebElement loginBtn=driver.findElement(By.xpath("//button[@type='submit']"));
 		loginBtn.click();

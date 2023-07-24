@@ -18,19 +18,4 @@
       </class> <!-- com.herokuapp.theinternet.loginpagetest.LoginTests -->
     </classes>
   </test> <!-- LoginTests(failed) -->
-  <test thread-count="5" name="NegativePasswordTest(failed)">
-    <parameter name="password" value="otherPassword"/>
-    <parameter name="browser" value="firefox"/>
-    <parameter name="expectedMessage" value="Your password is invalid!"/>
-    <parameter name="username" value="tomsmith"/>
-    <classes>
-      <class name="com.herokuapp.theinternet.loginpagetest.LoginTests">
-        <methods>
-          <include name="negativeLoginTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.loginpagetest.LoginTests -->
-    </classes>
-  </test> <!-- NegativePasswordTest(failed) -->
 </suite> <!-- Failed suite [LoginTests] -->

@@ -15,11 +15,12 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.herokuapp.theinternet.base.BaseTest;
+import com.herokuapp.theinternet.base.TestUtilities;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ExceptionsTests extends BaseTest{
+public class ExceptionsTests extends TestUtilities{
 	
 
 

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-PositiveTests" class="navigator-link">
-              <span class="suite-name border-failed">PositiveTests</span>
+              <span class="suite-name border-skipped">PositiveTests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-PositiveTests" class="hide-methods failed suite-PositiveTests"> (hide)</a> <!-- hide-methods failed suite-PositiveTests -->
-                      <a href="#" panel-name="suite-PositiveTests" class="show-methods failed suite-PositiveTests"> (show)</a> <!-- show-methods failed suite-PositiveTests -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PositiveTests" class="hide-methods skipped suite-PositiveTests"> (hide)</a> <!-- hide-methods skipped suite-PositiveTests -->
+                      <a href="#" panel-name="suite-PositiveTests" class="show-methods skipped suite-PositiveTests"> (show)</a> <!-- show-methods skipped suite-PositiveTests -->
                     </span>
-                    <div class="method-list-content failed suite-PositiveTests">
+                    <div class="method-list-content skipped suite-PositiveTests">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-PositiveTests" title="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-PositiveTests -->
+                    </div> <!-- method-list-content skipped suite-PositiveTests -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,9 +118,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-PositiveTests" class="panel PositiveTests">
-          <div class="suite-PositiveTests-class-failed">
+          <div class="suite-PositiveTests-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.herokuapp.theinternet.loginpagetest.PositiveLoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,15 +129,15 @@
                   <a name="loginTest">
                   </a> <!-- loginTest -->
                   <span class="method-name">loginTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: Message is not as expected expected [true] but found [false]
-	at com.herokuapp.theinternet.loginpagetest.PositiveLoginTests.loginTest(PositiveLoginTests.java:67)
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.herokuapp.theinternet.base.BaseTest.setUp(BaseTest.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 30 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PositiveTests-class-failed -->
+          </div> <!-- suite-PositiveTests-class-skipped -->
         </div> <!-- panel PositiveTests -->
         <div panel-name="test-xml-PositiveTests" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -194,12 +194,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.herokuapp.theinternet.loginpagetest.PositiveLoginTests')
-data.setCell(0, 3, 2691);
+data.setCell(0, 3, 2);
 window.suiteTableData['PositiveTests']= { tableData: data, tableDiv: 'times-div-PositiveTests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 2 ms</span>
               <div id="times-div-PositiveTests">
               </div> <!-- times-div-PositiveTests -->
             </div> <!-- times-div -->
@@ -227,14 +227,14 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetest.PositiveLoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">1675 ms</span>
+                <span class="method-start">1831 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

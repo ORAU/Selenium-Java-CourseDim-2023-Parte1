@@ -14,25 +14,9 @@ public class BaseTest {
 	@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)
 	public void setUp(@Optional("chrome") String browser) {
-
-		// Create driver
-		switch (browser) {
-		case "chrome":
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-			driver = new ChromeDriver();
-			break;
-		case "firefox":
-			System.setProperty("webdriver.firefox.marionette", "src/main/resources/geckodriver.exe");
-			driver = new FirefoxDriver();
-			break;
-		default:
-			System.out.println("No se logro establecer la conexion con el navegador:" + browser
-					+ " \n se ejecutara con navegador Chrome.");
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-			driver = new ChromeDriver();
-			break;
-		}
-
+		BrowserDriverFactory factory=new BrowserDriverFactory(browser);
+		factory.createDriver();
+		driver.manage().window().maximize();
 }
 	
 	@AfterMethod(alwaysRun = true)

@@ -32,7 +32,8 @@ public class ExceptionsTests extends TestUtilities{
 		 */
 
 		//
-		System.out.println("Executing HomeWork Test");
+	
+		log.info("Executing no Such Element Exceptions Test");
 		// Open Test page
 		driver.get("https://practicetestautomation.com/practice-test-exceptions/");
 		driver.manage().window().maximize();
@@ -57,12 +58,13 @@ public class ExceptionsTests extends TestUtilities{
 
 	@Test(priority = 2, enabled = true, groups = { "positiveTests", "smokeTests" })
 	public void elementNotInteractableException() {
-		System.out.println("Running elementNotInteractableException method");
+		//System.out.println("Running elementNotInteractableException method");
 		/*
 		 * Open page Click Add button Wait for the second row to load Type text into the
 		 * second input field Push Save button using locator By.name(“Save”) Verify text
 		 * saved
 		 */
+		log.info("Executing element not interacable Exceptions Test");
 		driver.get("https://practicetestautomation.com/practice-test-exceptions/");
 		driver.manage().window().maximize();
 		WebElement addBtn = driver.findElement(By.id("add_btn"));
@@ -84,7 +86,8 @@ public class ExceptionsTests extends TestUtilities{
 	@Test(priority=3,groups= {"positiveTests","smokeTests"},enabled=true)
 	public void invalidElementStateExceptionTest() {
 
-		System.out.println("Running invalidElementStateExceptionTest");
+	
+		log.info("Executing invalidElementStateExceptionTest");
 		/*
 		 * Open page 
 		 * Clear input field 
@@ -121,6 +124,7 @@ public class ExceptionsTests extends TestUtilities{
 		Find the instructions text element
 		Push add button
 		Verify instruction text element is no longer displayed	*/
+		log.info("Executing staleElementReferenceExceptionTest");
 		driver.get("https://practicetestautomation.com/practice-test-exceptions/");
 		WebElement addBtn=driver.findElement(By.id("add_btn"));
 		//addBtn.click();

@@ -30,8 +30,8 @@ public class LoginTests extends TestUtilities {
 
 		// System.setProperty("webdriver.firefox.marionette","src/main/resources/geckodriver.exe");
 		// --para firefoxdriver
-		System.out.println("Executing Login Test");
 
+		log.info("Executing Login Test");
 		// WebDriver driver = new FirefoxDriver();--para firefox browser
 		// Open Test page
 		driver.get("https://the-internet.herokuapp.com/login");
@@ -81,27 +81,33 @@ public class LoginTests extends TestUtilities {
 		// Create driver
 
 		String url = "https://the-internet.herokuapp.com/login";
-		System.out.println("Executing negative Login Test");
+	
+		log.info("Executing negative  Login Test");
 		// Open page
-		System.out.println("Openning browser");
+		
+		log.info("Openning browser");
 		driver.manage().window().maximize();
 		driver.navigate().to(url);
 		// Enter incorrect username
 		WebElement usernameElement = driver.findElement(By.id("username"));
-		System.out.println("Writting username");
+		
+		log.info("Writting username");
 		usernameElement.sendKeys(username);
 		// Enter correct password
 		WebElement passwordElement = driver.findElement(By.id("password"));
-		System.out.println("Writting password");
+		log.info("Writting password");
+		
 		passwordElement.sendKeys(password);
 		// Click on login button
 		WebElement loginBtn = driver.findElement(By.xpath("//button[@type='submit']"));
-		System.out.println("Clicking login button");
+		
+		log.info("Clicking login button");
 		loginBtn.click();
 		// Verify validation message
 		WebElement alert = driver.findElement(By.xpath("//div[@id='flash']"));
 		String resultMessage = alert.getText();
-		System.out.println("Validating results");
+		log.info("Validating results");
+		
 		Assert.assertTrue(resultMessage.contains(expectedMessage),
 				"The result message after failed login is differente from expected. /n Actual Message: " + resultMessage
 						+ "/n Expected Message:" + expectedMessage);

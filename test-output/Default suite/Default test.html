@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 24 15:42:37 CST 2023</td>
+<td>Started on:</td><td>Tue Jul 25 19:02:15 CST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2088 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (66 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.herokuapp.theinternet.loginpagetest.LoginTests.negativeLoginTest()'><b>negativeLoginTest</b><br>Test class: com.herokuapp.theinternet.loginpagetest.LoginTests</td>
+<td title='com.herokuapp.theinternet.loginpagetest.NegativeLoginTests2.negativeLoginTest()'><b>negativeLoginTest</b><br>Test class: com.herokuapp.theinternet.loginpagetest.NegativeLoginTests2</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;username&apos; is required by @Test on method negativeLoginTest but has not been marked @Optional or defined
-in C:\Users\orlan\AppData\Local\Temp\testng-eclipse--829960429\testng-customsuite.xml
+in C:\Users\orlan\AppData\Local\Temp\testng-eclipse--1500371806\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
@@ -107,10 +107,10 @@ in C:\Users\orlan\AppData\Local\Temp\testng-eclipse--829960429\testng-customsuit
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1555895711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1555895711'><pre>org.testng.TestNGException: 
+</pre></div><a href='#' onClick='toggleBox("stack-trace1753714541", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1753714541'><pre>org.testng.TestNGException: 
 Parameter &apos;username&apos; is required by @Test on method negativeLoginTest but has not been marked @Optional or defined
-in C:\Users\orlan\AppData\Local\Temp\testng-eclipse--829960429\testng-customsuite.xml
+in C:\Users\orlan\AppData\Local\Temp\testng-eclipse--1500371806\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
@@ -140,73 +140,7 @@ in C:\Users\orlan\AppData\Local\Temp\testng-eclipse--829960429\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.herokuapp.theinternet.loginpagetest.LoginTests@7526515b</td></tr>
-<tr>
-<td title='com.herokuapp.theinternet.loginpagetest.LoginTests.loginTest()'><b>loginTest</b><br>Test class: com.herokuapp.theinternet.loginpagetest.LoginTests</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.herokuapp.theinternet.loginpagetest.LoginTests.loginTest(LoginTests.java:39)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1628305283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1628305283'><pre>java.lang.NullPointerException
-	at com.herokuapp.theinternet.loginpagetest.LoginTests.loginTest(LoginTests.java:39)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.herokuapp.theinternet.loginpagetest.LoginTests@7526515b</td></tr>
+<td>com.herokuapp.theinternet.loginpagetest.NegativeLoginTests2@449a4f23</td></tr>
 </table><p>
 </body>
 </html>

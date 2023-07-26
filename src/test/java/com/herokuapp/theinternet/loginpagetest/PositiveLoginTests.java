@@ -25,7 +25,8 @@ public class PositiveLoginTests extends TestUtilities {
 		//System.setProperty("user.dir", "C:\\Users\\Orlan\\eclipse-workspace\\selenium-for-beginner");
 		//System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
 		//System.setProperty("webdriver.firefox.marionette","src/main/resources/geckodriver.exe");
-		System.out.println("Executing Login Test");
+		
+		log.info("Executing Login Test");
 		//Create driver
 		
 		driver.get("https://the-internet.herokuapp.com/login");
@@ -37,7 +38,7 @@ public class PositiveLoginTests extends TestUtilities {
 		//Enter password
 		WebElement password=driver.findElement(By.id("password"));
 		password.sendKeys("SuperSecretPassword!");
-		sleep(5000);
+		sleep(2000);
 		//Click login
 		WebElement loginBtn=driver.findElement(By.xpath("//button[@type='submit']"));
 		loginBtn.click();

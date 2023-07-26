@@ -3,11 +3,14 @@ package com.herokuapp.theinternet.loginpagetest;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.herokuapp.theinternet.base.TestUtilities;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-public class NegativeLoginTests2 {
+public class NegativeLoginTests2 extends TestUtilities{
 	@Test(priority=1, enabled=true,groups = { "negativeTests", "smokeTests" })
 	@Parameters({"username","password","expectedMessage"})
 public void negativeLoginTest(String username,String password,String expectedMessage) {
@@ -17,27 +20,27 @@ public void negativeLoginTest(String username,String password,String expectedMes
 	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 	WebDriver driver= new ChromeDriver();
 	String url="https://the-internet.herokuapp.com/login";
-	System.out.println("Executing negative Login Test");
+    log.info("Executing negative Login Test");
 	//Open page
-	System.out.println("Openning browser");
+    log.info("Openning browser");
 	driver.manage().window().maximize();
 	driver.navigate().to(url);
 	//Enter incorrect username
 	WebElement usernameElement=driver.findElement(By.id("username"));
-	System.out.println("Writting username");
+	 log.info("Writting username");
 	usernameElement.sendKeys(username);
 	//Enter correct password
 	WebElement passwordElement=driver.findElement(By.id("password"));
-	System.out.println("Writting password");
+	 log.info("Writting password");
 	passwordElement.sendKeys(password);
 	//Click on login button
 	WebElement loginBtn=driver.findElement(By.xpath("//button[@type='submit']"));
-	System.out.println("Clicking login button");
+	 log.info("Clicking login button");
 	loginBtn.click();
 	//Verify validation message
 	WebElement alert=driver.findElement(By.xpath("//div[@id='flash']"));
 	String resultMessage=alert.getText();
-	System.out.println("Validating results");
+	 log.info("Validating results");
     Assert.assertTrue(resultMessage.contains(expectedMessage),"The result message after failed login is differente from expected. /n Actual Message: "+resultMessage+"/n Expected Message:"+expectedMessage);
     //Close the browser
     driver.quit();

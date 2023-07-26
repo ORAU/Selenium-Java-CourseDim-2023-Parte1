@@ -7,11 +7,14 @@
 		
 		<classes>
 			<class name="com.herokuapp.theinternet.loginpagetest.ExceptionsTests" >
-		<methods>
-
-		<include name="staleElementReferenceExceptionTest"></include>
 		
-		</methods>	
+
+		<!--
+		<methods>
+		<include name="staleElementReferenceExceptionTest"></include>
+		</methods>
+		 -->
+				
 			</class>	
 		</classes>
 	</test>

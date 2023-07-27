@@ -2,15 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [TestSuitesName]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="methods" name="TestSuites(failed)">
+    <parameter name="password" value="SuperSecretPassword!"/>
+    <parameter name="username" value="tomsmith"/>
     <classes>
-      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests">
+      <class name="com.herokuapp.theinternet.loginpagetest.LoginPOMTest">
         <methods>
-          <include name="negativePasswordTest"/>
-          <include name="negativeUsernameTest"/>
+          <include name="loginTest" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoginTests -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.LoginPOMTest -->
     </classes>
   </test> <!-- TestSuites(failed) -->
 </suite> <!-- Failed suite [TestSuitesName] -->

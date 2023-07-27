@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-26T19:48:20 CST" name="TestSuitesName" finished-at="2023-07-26T19:48:25 CST" duration-ms="5142">
+  <suite started-at="2023-07-26T22:28:26 CST" name="TestSuitesName" finished-at="2023-07-26T22:28:35 CST" duration-ms="8667">
     <groups>
       <group name="positiveTests">
-        <method signature="LoginPOMTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.LoginPOMTest@6e6f2380]" name="loginTest" class="com.herokuapp.theinternet.loginpagetest.LoginPOMTest"/>
+        <method signature="NegativeLoginPOMTest.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@6e6f2380]" name="negativeLoginTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest"/>
+        <method signature="NegativeLoginPOMTest.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@792b749c]" name="negativeLoginTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest"/>
       </group> <!-- positiveTests -->
       <group name="smokeTests">
-        <method signature="LoginPOMTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.LoginPOMTest@6e6f2380]" name="loginTest" class="com.herokuapp.theinternet.loginpagetest.LoginPOMTest"/>
+        <method signature="NegativeLoginPOMTest.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@6e6f2380]" name="negativeLoginTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest"/>
+        <method signature="NegativeLoginPOMTest.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@792b749c]" name="negativeLoginTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest"/>
       </group> <!-- smokeTests -->
     </groups>
-    <test started-at="2023-07-26T19:48:20 CST" name="TestSuites" finished-at="2023-07-26T19:48:25 CST" duration-ms="5142">
-      <class name="com.herokuapp.theinternet.loginpagetest.LoginPOMTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.LoginPOMTest@6e6f2380]" started-at="2023-07-26T19:48:20 CST" name="setUp" finished-at="2023-07-26T19:48:22 CST" duration-ms="2612" status="PASS">
+    <test started-at="2023-07-26T22:28:26 CST" name="Negative Login-username" finished-at="2023-07-26T22:28:31 CST" duration-ms="5315">
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@6e6f2380]" started-at="2023-07-26T22:28:26 CST" name="setUp" finished-at="2023-07-26T22:28:28 CST" duration-ms="2298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,14 +24,59 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@5f0fd5a0]]>
+                <![CDATA[org.testng.TestRunner@3116c353]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.LoginPOMTest@6e6f2380]" started-at="2023-07-26T19:48:22 CST" name="loginTest" finished-at="2023-07-26T19:48:25 CST" duration-ms="2219" status="PASS">
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@6e6f2380]" started-at="2023-07-26T22:28:28 CST" name="negativeLoginTest" finished-at="2023-07-26T22:28:31 CST" duration-ms="2723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your username is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@6e6f2380]" started-at="2023-07-26T22:28:31 CST" name="tearDown" finished-at="2023-07-26T22:28:31 CST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest -->
+    </test> <!-- Negative Login-username -->
+    <test started-at="2023-07-26T22:28:31 CST" name="Negative Login-password" finished-at="2023-07-26T22:28:35 CST" duration-ms="3318">
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@792b749c]" started-at="2023-07-26T22:28:31 CST" name="setUp" finished-at="2023-07-26T22:28:32 CST" duration-ms="950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@f627d13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@792b749c]" started-at="2023-07-26T22:28:32 CST" name="negativeLoginTest" finished-at="2023-07-26T22:28:34 CST" duration-ms="2173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,18 +85,23 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[SuperSecretPassword!]]>
+                <![CDATA[SuperSecretPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password is invalid!]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.LoginPOMTest@6e6f2380]" started-at="2023-07-26T19:48:25 CST" name="tearDown" finished-at="2023-07-26T19:48:25 CST" duration-ms="240" status="PASS">
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest@792b749c]" started-at="2023-07-26T22:28:34 CST" name="tearDown" finished-at="2023-07-26T22:28:35 CST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.loginpagetest.LoginPOMTest -->
-    </test> <!-- TestSuites -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoginPOMTest -->
+    </test> <!-- Negative Login-password -->
   </suite> <!-- TestSuitesName -->
 </testng-results>

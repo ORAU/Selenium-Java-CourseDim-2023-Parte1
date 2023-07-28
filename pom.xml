@@ -18,7 +18,7 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.20.0</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -55,8 +55,17 @@
 
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>
-							src/test/resources/TestSuites/negativeTests_3.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/debug.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/loginPOM.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/loginTests.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/negative_loginPOM.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/NegativeLogInTest.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/NegativeLogInTest2.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/negativeTests_2.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/negativeTests_3.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/negativeTests.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/positiveTests.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/testsuites.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 

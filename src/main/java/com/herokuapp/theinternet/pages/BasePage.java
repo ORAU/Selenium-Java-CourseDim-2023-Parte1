@@ -1,6 +1,7 @@
 package com.herokuapp.theinternet.pages;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -31,6 +32,11 @@ public class BasePage {
 	/*Find element using given locator*/
 	protected WebElement find(By locator) {
 		return driver.findElement(locator);
+	}
+
+	/*Find several elements in the page*/
+	protected List<WebElement>findAll(By locator) {
+	 return driver.findElements(locator);
 	}
 	/*Click on element with given locator when its visible*/
 	protected void click(By locator) {
@@ -70,4 +76,5 @@ public class BasePage {
 	public String getCurrentUrl() {
 		return driver.getCurrentUrl();
 	}
+
 }

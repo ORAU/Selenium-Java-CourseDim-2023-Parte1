@@ -10,6 +10,7 @@ public class LoginPage extends BasePage {
 	private By passwordLocator = By.name("password");
 	private By loginButtonLocator = By.tagName("button");
 	private By failedLoginMessage =By.xpath("//div[@id='flash']");
+
 	public LoginPage(WebDriver driver, Logger log) {
 		super(driver, log);
 

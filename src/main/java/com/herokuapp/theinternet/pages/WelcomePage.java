@@ -8,6 +8,7 @@ public class WelcomePage extends BasePage {
 
 	private By formAuthenticationLinkLocator = By.linkText("Form Authentication");
 	private String pageUrl = "https://the-internet.herokuapp.com/";
+	private By checkboxes=By.xpath("//a[contains(text(),'Checkboxes')]");
 
 	public WelcomePage(WebDriver driver, Logger log) {
 		super(driver, log);
@@ -24,5 +25,11 @@ public class WelcomePage extends BasePage {
 		log.info("Clicking form authentication link on Welcome Page");
 		click(formAuthenticationLinkLocator);
 		return new LoginPage(driver, log);
+	}
+	
+	public CheckboxesPage clickOnCheckboxesLink() {
+		log.info("Clicking Checkboxes link on Welcome Page");
+		click(checkboxes);
+		return new CheckboxesPage(driver,log);
 	}
 }

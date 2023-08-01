@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-31T17:39:27 CST" name="CheckboxesTests" finished-at="2023-07-31T17:39:32 CST" duration-ms="5566">
+  <suite started-at="2023-08-01T12:18:59 CST" name="DropdownTests" finished-at="2023-08-01T12:19:04 CST" duration-ms="4905">
     <groups>
     </groups>
-    <test started-at="2023-07-31T17:39:27 CST" name="CheckboxesTests" finished-at="2023-07-31T17:39:32 CST" duration-ms="5566">
-      <class name="com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-31T17:39:27 CST" name="setUp" finished-at="2023-07-31T17:39:30 CST" duration-ms="3125" status="PASS">
+    <test started-at="2023-08-01T12:18:59 CST" name="Dropdown" finished-at="2023-08-01T12:19:04 CST" duration-ms="4905">
+      <class name="com.herokuapp.theinternet.dropdowntest.DropdownTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@2a265ea9]" started-at="2023-08-01T12:18:59 CST" name="setUp" finished-at="2023-08-01T12:19:01 CST" duration-ms="2524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,22 +16,66 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3a894088]]>
+                <![CDATA[org.testng.TestRunner@14998e21]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkboxTest()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-31T17:39:30 CST" name="checkboxTest" finished-at="2023-07-31T17:39:32 CST" duration-ms="2082" status="PASS">
+        <test-method signature="dropdownOptionTwoTest()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@2a265ea9]" started-at="2023-08-01T12:19:01 CST" name="dropdownOptionTwoTest" finished-at="2023-08-01T12:19:03 CST" duration-ms="2003" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Option 2] but found [Option 2x]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Option 2] but found [Option 2x]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.herokuapp.theinternet.dropdowntest.DropdownTest.dropdownOptionTwoTest(DropdownTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-31T17:39:32 CST" name="tearDown" finished-at="2023-07-31T17:39:32 CST" duration-ms="278" status="PASS">
+        </test-method> <!-- dropdownOptionTwoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@2a265ea9]" started-at="2023-08-01T12:19:03 CST" name="tearDown" finished-at="2023-08-01T12:19:04 CST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest -->
-    </test> <!-- CheckboxesTests -->
-  </suite> <!-- CheckboxesTests -->
+      </class> <!-- com.herokuapp.theinternet.dropdowntest.DropdownTest -->
+    </test> <!-- Dropdown -->
+  </suite> <!-- DropdownTests -->
 </testng-results>

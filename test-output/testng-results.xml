@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-28T08:36:21 CST" name="CheckboxesTests" finished-at="2023-07-28T08:36:25 CST" duration-ms="4251">
+  <suite started-at="2023-07-31T17:39:27 CST" name="CheckboxesTests" finished-at="2023-07-31T17:39:32 CST" duration-ms="5566">
     <groups>
     </groups>
-    <test started-at="2023-07-28T08:36:21 CST" name="CheckboxesTests" finished-at="2023-07-28T08:36:25 CST" duration-ms="4251">
+    <test started-at="2023-07-31T17:39:27 CST" name="CheckboxesTests" finished-at="2023-07-31T17:39:32 CST" duration-ms="5566">
       <class name="com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-28T08:36:21 CST" name="setUp" finished-at="2023-07-28T08:36:23 CST" duration-ms="2372" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-31T17:39:27 CST" name="setUp" finished-at="2023-07-31T17:39:30 CST" duration-ms="3125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,18 +16,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@5a50d9fc]]>
+                <![CDATA[org.testng.TestRunner@3a894088]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkboxTest()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-28T08:36:23 CST" name="checkboxTest" finished-at="2023-07-28T08:36:25 CST" duration-ms="1636" status="PASS">
+        <test-method signature="checkboxTest()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-31T17:39:30 CST" name="checkboxTest" finished-at="2023-07-31T17:39:32 CST" duration-ms="2082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkboxTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-28T08:36:25 CST" name="tearDown" finished-at="2023-07-28T08:36:25 CST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@2a265ea9]" started-at="2023-07-31T17:39:32 CST" name="tearDown" finished-at="2023-07-31T17:39:32 CST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

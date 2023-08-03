@@ -15,7 +15,7 @@ public class JavascriptAlertsTests extends TestUtilities{
 	private WelcomePage welcomePage;
 	private JavascriptAlertsPage javascriptAlertsPage;
 	private String actualResult;
-@Test
+@Test(priority=1)
 public void javascriptAlertTest() {
 	String expectedMessage="You successfully clicked an alert";
 	log.info("Executing javascriptAlertTest");
@@ -23,28 +23,74 @@ public void javascriptAlertTest() {
 	welcomePage.openPage();
 	javascriptAlertsPage=welcomePage.clickOnTheJavascriptAlertsLink();
 	javascriptAlertsPage.clickOnJsAlertButton();
+	sleep(3000);
+	String actualMessage=javascriptAlertsPage.getTextJSAlert();
+	javascriptAlertsPage.clickOnAcceptOptionJSAlert();
+	Assert.assertEquals(actualMessage,"I am a JS Alert");
 	Assert.assertEquals(expectedMessage,javascriptAlertsPage.getResultText(), "The results are differents");
 }
 
-@Test
-public void javascriptConfirmTest() {
+@Test(priority=2)
+public void javascriptConfirmJSConfirmTest() {
 	String expectedMessage="You clicked: Ok";
-	log.info("Executing javascriptConfirmTest");
+	log.info("Executing javascriptConfirmJSConfirmTest");
 	welcomePage=new WelcomePage(driver,log);
 	welcomePage.openPage();
 	javascriptAlertsPage=welcomePage.clickOnTheJavascriptAlertsLink();
 	javascriptAlertsPage.clickOnJsConfirmButton();
+	sleep(3000);
+	String actualMessage=javascriptAlertsPage.getTextJSAlert();
+	javascriptAlertsPage.clickOnAcceptOptionJSConfirm();
+	Assert.assertEquals(actualMessage,"I am a JS Confirm");
 	Assert.assertEquals(expectedMessage,javascriptAlertsPage.getResultText(), "The results are differents");
 }
-@Test
-@Parameters("message")
-public void javascriptPromptTest(String message) {
-	String expectedMessage="You entered: "+message;
-	log.info("Executing javascriptConfirmTest");
+
+@Test(priority=3)
+public void javascriptCancelJSConfirmTest() {
+	String expectedMessage="You clicked: Cancel";
+	log.info("Executing javascriptCancelJSConfirmTest");
 	welcomePage=new WelcomePage(driver,log);
 	welcomePage.openPage();
 	javascriptAlertsPage=welcomePage.clickOnTheJavascriptAlertsLink();
-	javascriptAlertsPage.clickOnJsPromptButton(message);
+	javascriptAlertsPage.clickOnJsConfirmButton();
+	sleep(3000);
+	String actualMessage=javascriptAlertsPage.getTextJSAlert();
+	javascriptAlertsPage.clickOnCancelOptionJSConfirm();
+	Assert.assertEquals(actualMessage,"I am a JS Confirm");
+	Assert.assertEquals(expectedMessage,javascriptAlertsPage.getResultText(), "The results are differents");
+}
+@Test(priority=4)
+@Parameters("message")
+public void javascriptConfirmJSPromptTest(String message) {
+	String expectedMessage="You entered: "+message;
+	log.info("Executing javascriptConfirmPromptTest");
+	welcomePage=new WelcomePage(driver,log);
+	welcomePage.openPage();
+	javascriptAlertsPage=welcomePage.clickOnTheJavascriptAlertsLink();
+	javascriptAlertsPage.clickOnJsPromptButton();
+	javascriptAlertsPage.sendTextJsPrompt(message);
+	sleep(3000);
+	String actualMessage=javascriptAlertsPage.getTextJSAlert();
+	javascriptAlertsPage.clickOnAcceptOptionJSPrompt();
+	Assert.assertEquals(actualMessage,"I am a JS prompt");
+	Assert.assertEquals(javascriptAlertsPage.getResultText(),expectedMessage, "The results are differents");
+}
+
+@Test(priority=5)
+@Parameters("message")
+public void javascriptCancelJSPromptTest(String message) {
+	String expectedMessage="You entered: null";
+	log.info("Executing javascriptCancelPromptTest");
+	welcomePage=new WelcomePage(driver,log);
+	welcomePage.openPage();
+	javascriptAlertsPage=welcomePage.clickOnTheJavascriptAlertsLink();
+	javascriptAlertsPage.clickOnJsPromptButton();
+	javascriptAlertsPage.sendTextJsPrompt(message);
+	sleep(3000);
+	String actualMessage=javascriptAlertsPage.getTextJSAlert();
+	javascriptAlertsPage.clickOnCancelOptionJSPrompt();
+	
+	Assert.assertEquals(actualMessage,"I am a JS prompt");
 	Assert.assertEquals(javascriptAlertsPage.getResultText(),expectedMessage, "The results are differents");
 }
 

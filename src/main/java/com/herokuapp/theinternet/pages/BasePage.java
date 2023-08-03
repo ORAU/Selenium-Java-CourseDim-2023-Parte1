@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -76,5 +77,20 @@ public class BasePage {
 	public String getCurrentUrl() {
 		return driver.getCurrentUrl();
 	}
+	
+	public Alert getAlertWindow() {
+		
+		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.alertIsPresent());
+		return driver.switchTo().alert();
+	}
 
+	public String getTextAlertWindow() {
+		return driver.switchTo().alert().getText();
+	}
+	
+	public void writeOnJSPromptAlert(String text) {
+		driver.switchTo().alert().sendKeys(text);
+	}
+	
 }

@@ -14,20 +14,52 @@ public class JavascriptAlertsPage extends BasePage {
 		super(driver, log);
 	}
 	public void clickOnJsAlertButton() {
+		log.info("Clicking On Alert Button");
 		click(jsButtonAlertLocator);
-		driver.switchTo().alert().accept();
 	}
+	public String getTextJSAlert() {
+		log.info("Getting Text from Alert window");
+		return getTextAlertWindow();
+	}
+	public void clickOnAcceptOptionJSAlert() {
+		log.info("Clicking On Accept Button of JS Alert ");
+		getAlertWindow().accept();
+	}
+
 	public void clickOnJsConfirmButton() {
+		log.info("Clicking On Confirmation Button");
 		click(jsButtonConfirmLocator);
-		driver.switchTo().alert().accept();
-		
 	}
-	public void clickOnJsPromptButton(String text) {
-		
+	
+	public void clickOnAcceptOptionJSConfirm() {
+		log.info("Clicking On Accept Button of JS Confirm ");
+		getAlertWindow().accept();
+		}
+	
+	public void clickOnCancelOptionJSConfirm() {
+		log.info("Clicking On Cancel Button of JS Confirm ");
+		getAlertWindow().dismiss();
+		}
+	
+	public void clickOnJsPromptButton() {
+		log.info("Clicking On Prompt Button");
 		click(jsButtonPromptLocator);
-		driver.switchTo().alert().sendKeys(text);
-		driver.switchTo().alert().accept();
 	}
+	
+	public void sendTextJsPrompt(String text) {
+		log.info("Sending text On Prompt Alert: "+text);
+		writeOnJSPromptAlert(text);
+	}
+	
+	public void clickOnAcceptOptionJSPrompt() {
+		log.info("Clicking On Accept Button of JS Prompt ");
+		getAlertWindow().accept();
+		}
+	
+	public void clickOnCancelOptionJSPrompt() {
+		log.info("Clicking On Cancel Button of JS Prompt ");
+		getAlertWindow().dismiss();
+		}
 	public String getResultText() {
 		return find(resultTextLocator).getText();
 	}

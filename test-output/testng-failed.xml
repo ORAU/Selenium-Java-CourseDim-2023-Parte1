@@ -6,8 +6,12 @@
     <classes>
       <class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">
         <methods>
-          <include name="javascriptPromptTest" invocation-numbers="0"/>
+          <include name="javascriptCancelJSPromptTest"/>
+          <include name="javascriptConfirmJSConfirmTest"/>
           <include name="tearDown"/>
+          <include name="javascriptAlertTest"/>
+          <include name="javascriptConfirmJSPromptTest"/>
+          <include name="javascriptCancelJSConfirmTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests -->

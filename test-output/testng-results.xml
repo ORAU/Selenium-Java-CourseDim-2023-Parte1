@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T14:03:21 CST" name="Javascripts Alerts Suite" finished-at="2023-08-03T14:04:01 CST" duration-ms="39143">
+  <suite started-at="2023-08-09T15:55:37 CST" name="MultipleWindowsTests" finished-at="2023-08-09T15:55:42 CST" duration-ms="4718">
     <groups>
     </groups>
-    <test started-at="2023-08-03T14:03:21 CST" name="JS Alert Test" finished-at="2023-08-03T14:04:01 CST" duration-ms="39143">
-      <class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:22 CST" name="setUp" finished-at="2023-08-03T14:03:24 CST" duration-ms="2384" status="PASS">
+    <test started-at="2023-08-09T15:55:37 CST" name="MultipleWindowsTests" finished-at="2023-08-09T15:55:42 CST" duration-ms="4718">
+      <class name="com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest@2a265ea9]" started-at="2023-08-09T15:55:37 CST" name="setUp" finished-at="2023-08-09T15:55:40 CST" duration-ms="2551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,132 +16,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7ccfdaef]]>
+                <![CDATA[org.testng.TestRunner@459b6c53]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="javascriptAlertTest()[pri:1, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:24 CST" name="javascriptAlertTest" finished-at="2023-08-03T14:03:31 CST" duration-ms="6971" status="PASS">
+        <test-method signature="openNewWindowsTest()[pri:0, instance:com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest@2a265ea9]" started-at="2023-08-09T15:55:40 CST" name="openNewWindowsTest" finished-at="2023-08-09T15:55:42 CST" duration-ms="1830" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- javascriptAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:31 CST" name="tearDown" finished-at="2023-08-03T14:03:31 CST" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:31 CST" name="setUp" finished-at="2023-08-03T14:03:32 CST" duration-ms="1003" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@7ccfdaef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="javascriptConfirmJSConfirmTest()[pri:2, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:32 CST" name="javascriptConfirmJSConfirmTest" finished-at="2023-08-03T14:03:40 CST" duration-ms="7886" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- javascriptConfirmJSConfirmTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:40 CST" name="tearDown" finished-at="2023-08-03T14:03:40 CST" duration-ms="201" status="PASS">
+        </test-method> <!-- openNewWindowsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest@2a265ea9]" started-at="2023-08-09T15:55:42 CST" name="tearDown" finished-at="2023-08-09T15:55:42 CST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:40 CST" name="setUp" finished-at="2023-08-03T14:03:41 CST" duration-ms="1120" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@7ccfdaef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="javascriptCancelJSConfirmTest()[pri:3, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:41 CST" name="javascriptCancelJSConfirmTest" finished-at="2023-08-03T14:03:46 CST" duration-ms="4904" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- javascriptCancelJSConfirmTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:46 CST" name="tearDown" finished-at="2023-08-03T14:03:47 CST" duration-ms="294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:47 CST" name="setUp" finished-at="2023-08-03T14:03:47 CST" duration-ms="946" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@7ccfdaef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="javascriptConfirmJSPromptTest(java.lang.String)[pri:4, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:47 CST" name="javascriptConfirmJSPromptTest" finished-at="2023-08-03T14:03:53 CST" duration-ms="5144" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testing]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- javascriptConfirmJSPromptTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:53 CST" name="tearDown" finished-at="2023-08-03T14:03:53 CST" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:53 CST" name="setUp" finished-at="2023-08-03T14:03:54 CST" duration-ms="914" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@7ccfdaef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="javascriptCancelJSPromptTest(java.lang.String)[pri:5, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:03:54 CST" name="javascriptCancelJSPromptTest" finished-at="2023-08-03T14:04:00 CST" duration-ms="6706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testing]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- javascriptCancelJSPromptTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@449a4f23]" started-at="2023-08-03T14:04:00 CST" name="tearDown" finished-at="2023-08-03T14:04:01 CST" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests -->
-    </test> <!-- JS Alert Test -->
-  </suite> <!-- Javascripts Alerts Suite -->
+      </class> <!-- com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest -->
+    </test> <!-- MultipleWindowsTests -->
+  </suite> <!-- MultipleWindowsTests -->
 </testng-results>

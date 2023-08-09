@@ -11,6 +11,7 @@ public class WelcomePage extends BasePage {
 	private By checkboxes=By.xpath("//a[contains(text(),'Checkboxes')]");
 	private By dropdown=By.linkText("Dropdown");
 	private By jsAlerts =By.linkText("JavaScript Alerts");
+	private By newWindows=By.linkText("Multiple Windows");
 	public WelcomePage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
@@ -43,5 +44,10 @@ public class WelcomePage extends BasePage {
 		log.info("Clicking Javascript Alerts link on Welcome Page");
 		click(jsAlerts);
 		return new JavascriptAlertsPage(driver,log);
+	}
+	public OpeningNewWindowPage clickOnTheOpeningNewWindowLink() {
+		log.info("Clicking Opening New Window link on Welcome Page");
+		click(newWindows);
+		return new OpeningNewWindowPage(driver,log);
 	}
 }

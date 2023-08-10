@@ -43,7 +43,7 @@ public class LoginTests extends TestUtilities {
 		WebElement password = driver.findElement(By.id("password"));
 		password.sendKeys("SuperSecretPassword!");
 		// Click login
-		WebElement loginBtn = driver.findElement(By.xpath("//button[@type='submitt']"));
+		WebElement loginBtn = driver.findElement(By.xpath("//button[@type='submit']"));
 		loginBtn.click();
 
 		/*

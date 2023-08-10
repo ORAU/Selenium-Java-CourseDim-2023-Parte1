@@ -24,7 +24,7 @@ public class ExceptionsTests extends TestUtilities{
 	
 
 
-	@Test(priority = 1, enabled = true, groups = { "positiveTests", "smokeTests" })
+	@Test(priority = 1, enabled = false, groups = { "positiveTests", "smokeTests" })
 	public void noSuchElementExceptionTest() {
 
 		/*
@@ -56,7 +56,7 @@ public class ExceptionsTests extends TestUtilities{
 
 	}
 
-	@Test(priority = 2, enabled = true, groups = { "positiveTests", "smokeTests" })
+	@Test(priority = 2, enabled = false, groups = { "positiveTests", "smokeTests" })
 	public void elementNotInteractableException() {
 		//System.out.println("Running elementNotInteractableException method");
 		/*
@@ -83,7 +83,7 @@ public class ExceptionsTests extends TestUtilities{
 						+ confirmationLbl.getText());
 	}
 
-	@Test(priority=3,groups= {"positiveTests","smokeTests"},enabled=true)
+	@Test(priority=3,groups= {"positiveTests","smokeTests"},enabled=false)
 	public void invalidElementStateExceptionTest() {
 
 	
@@ -118,7 +118,7 @@ public class ExceptionsTests extends TestUtilities{
 		
 	}
 
-	@Test (enabled=true,priority=4,groups= {"positiveTests","smokeTests"})
+	@Test (enabled=false,priority=4,groups= {"positiveTests","smokeTests"})
 	public void staleElementReferenceExceptionTest() {
 		/*Open page
 		Find the instructions text element

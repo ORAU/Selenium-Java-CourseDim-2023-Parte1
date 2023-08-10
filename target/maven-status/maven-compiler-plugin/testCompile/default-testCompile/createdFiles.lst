@@ -1,0 +1,12 @@
+com\herokuapp\theinternet\loginpagetest\LoginTests.class
+com\herokuapp\theinternet\loginpagetest\NegativeLoginTests2.class
+com\herokuapp\theinternet\loginpagetest\NegativeLoginTests.class
+com\herokuapp\theinternet\loginpagetest\PositiveLoginTests.class
+com\herokuapp\theinternet\dropdowntest\DropdownTest.class
+com\herokuapp\theinternet\loginpagetest\ExceptionsTests.class
+com\herokuapp\theinternet\javascriptalertstest\JavascriptAlertsTests.class
+com\herokuapp\theinternet\loginpagetest\NegativeLoginPOMTest.class
+com\herokuapp\theinternet\multiplewindowstest\MultipleWindowsTest.class
+com\herokuapp\theinternet\checkboxpagetest\CheckboxesPOMTest.class
+com\herokuapp\theinternet\loginpagetest\LoginPOMTest.class
+com\herokuapp\theinternet\loginpagetest\NegativeLoggInTests.class

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-09T15:55:37 CST" name="MultipleWindowsTests" finished-at="2023-08-09T15:55:42 CST" duration-ms="4718">
+  <suite started-at="2023-08-09T23:38:44 CST" name="TestSuitesName" finished-at="2023-08-09T23:38:54 CST" duration-ms="9080">
     <groups>
+      <group name="smokeTests">
+        <method signature="NegativeLoginTests.negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" name="negativeUsernameTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
+      </group> <!-- smokeTests -->
+      <group name="negativeTests">
+        <method signature="NegativeLoginTests.negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" name="negativeUsernameTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
+        <method signature="NegativeLoginTests.negativePasswordTest()[pri:2, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" name="negativePasswordTest" class="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests"/>
+      </group> <!-- negativeTests -->
     </groups>
-    <test started-at="2023-08-09T15:55:37 CST" name="MultipleWindowsTests" finished-at="2023-08-09T15:55:42 CST" duration-ms="4718">
-      <class name="com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest@2a265ea9]" started-at="2023-08-09T15:55:37 CST" name="setUp" finished-at="2023-08-09T15:55:40 CST" duration-ms="2551" status="PASS">
+    <test started-at="2023-08-09T23:38:44 CST" name="TestSuites" finished-at="2023-08-09T23:38:54 CST" duration-ms="9080">
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" started-at="2023-08-09T23:38:44 CST" name="setUp" finished-at="2023-08-09T23:38:47 CST" duration-ms="2950" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,22 +23,72 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@459b6c53]]>
+                <![CDATA[org.testng.TestRunner@3116c353]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNewWindowsTest()[pri:0, instance:com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest@2a265ea9]" started-at="2023-08-09T15:55:40 CST" name="openNewWindowsTest" finished-at="2023-08-09T15:55:42 CST" duration-ms="1830" status="PASS">
+        <test-method signature="negativeUsernameTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" started-at="2023-08-09T23:38:47 CST" name="negativeUsernameTest" finished-at="2023-08-09T23:38:50 CST" duration-ms="2747" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openNewWindowsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest@2a265ea9]" started-at="2023-08-09T15:55:42 CST" name="tearDown" finished-at="2023-08-09T15:55:42 CST" duration-ms="282" status="PASS">
+        </test-method> <!-- negativeUsernameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" started-at="2023-08-09T23:38:50 CST" name="tearDown" finished-at="2023-08-09T23:38:50 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest -->
-    </test> <!-- MultipleWindowsTests -->
-  </suite> <!-- MultipleWindowsTests -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" started-at="2023-08-09T23:38:50 CST" name="setUp" finished-at="2023-08-09T23:38:52 CST" duration-ms="1324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3116c353]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativePasswordTest()[pri:2, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" started-at="2023-08-09T23:38:52 CST" name="negativePasswordTest" finished-at="2023-08-09T23:38:54 CST" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativePasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.NegativeLoginTests@6e6f2380]" started-at="2023-08-09T23:38:54 CST" name="tearDown" finished-at="2023-08-09T23:38:54 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoginTests -->
+      <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@33065d67]" started-at="2023-08-09T23:38:44 CST" name="setUp" finished-at="2023-08-09T23:38:47 CST" duration-ms="3011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3116c353]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@33065d67]" started-at="2023-08-09T23:38:47 CST" name="loginTest" finished-at="2023-08-09T23:38:52 CST" duration-ms="4485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@33065d67]" started-at="2023-08-09T23:38:52 CST" name="tearDown" finished-at="2023-08-09T23:38:52 CST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.PositiveLoginTests -->
+    </test> <!-- TestSuites -->
+  </suite> <!-- TestSuitesName -->
 </testng-results>

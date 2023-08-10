@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [MultipleWindowsTests]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="MultipleWindowsTests(failed)">
+<suite name="Failed suite [TestSuitesName]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="TestSuites(failed)">
     <classes>
-      <class name="com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest">
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoginTests">
         <methods>
+          <include name="negativePasswordTest"/>
+          <include name="negativeUsernameTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="openNewWindowsTest"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.multiplewindowstest.MultipleWindowsTest -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoginTests -->
     </classes>
-  </test> <!-- MultipleWindowsTests(failed) -->
-</suite> <!-- Failed suite [MultipleWindowsTests] -->
+  </test> <!-- TestSuites(failed) -->
+</suite> <!-- Failed suite [TestSuitesName] -->

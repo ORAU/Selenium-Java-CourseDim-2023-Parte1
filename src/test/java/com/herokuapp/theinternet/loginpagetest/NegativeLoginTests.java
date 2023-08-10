@@ -22,7 +22,7 @@ public void negativeUsernameTest() {
 	//System.out.println("Openning browser x");
 	log.info("Openning browser");
 	driver.manage().window().maximize();
-	driver.navigate().to(url);
+	driver.get(url);
 	//Enter incorrect username
 	WebElement username=driver.findElement(By.id("username"));
 	//System.out.println("Writting username");
@@ -49,7 +49,7 @@ public void negativeUsernameTest() {
 		//Creating driver
 
 		log.info("Executing Negative Password Test");
-		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 		
 		String url="https://the-internet.herokuapp.com/login";
 		//Openning page

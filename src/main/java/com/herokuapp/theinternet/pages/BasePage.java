@@ -34,7 +34,9 @@ public class BasePage {
 
 	/* Find element using given locator */
 	protected WebElement find(By locator) {
-		return driver.findElement(locator);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		//return driver.findElement(locator);
 	}
 
 	/* Find several elements in the page */
@@ -132,5 +134,8 @@ public class BasePage {
 
 	public String getSourceCodePage() {
 		return driver.getPageSource();
+	}
+	public void switchToIFrame(By iFrame) {
+		driver.switchTo().frame(find(iFrame));
 	}
 }

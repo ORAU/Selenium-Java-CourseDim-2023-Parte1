@@ -12,6 +12,7 @@ public class WelcomePage extends BasePage {
 	private By dropdown=By.linkText("Dropdown");
 	private By jsAlerts =By.linkText("JavaScript Alerts");
 	private By newWindows=By.linkText("Multiple Windows");
+	private By iFrame=By.linkText("WYSIWYG Editor");
 	public WelcomePage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
@@ -49,5 +50,10 @@ public class WelcomePage extends BasePage {
 		log.info("Clicking Opening New Window link on Welcome Page");
 		click(newWindows);
 		return new OpeningNewWindowPage(driver,log);
+	}
+	public TinyMcePage clickOnTheIFrameEditorLink() {
+		log.info("Clicking Iframe Editor link on Welcome Page");
+		click(iFrame);
+		return new TinyMcePage(driver,log);
 	}
 }

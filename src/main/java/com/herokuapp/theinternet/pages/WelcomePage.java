@@ -13,6 +13,7 @@ public class WelcomePage extends BasePage {
 	private By jsAlerts =By.linkText("JavaScript Alerts");
 	private By newWindows=By.linkText("Multiple Windows");
 	private By iFrame=By.linkText("WYSIWYG Editor");
+	private By keyPresses=By.linkText("Key Presses");
 	public WelcomePage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
@@ -55,5 +56,11 @@ public class WelcomePage extends BasePage {
 		log.info("Clicking Iframe Editor link on Welcome Page");
 		click(iFrame);
 		return new TinyMcePage(driver,log);
+	}
+	public KeyPressesPage clickOnTheKeyPressesLink() {
+		log.info("Clicking Key Presses link on Welcome Page");
+		click(keyPresses);
+		return new KeyPressesPage(driver,log);
+		
 	}
 }

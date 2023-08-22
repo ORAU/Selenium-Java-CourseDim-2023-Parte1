@@ -8,12 +8,14 @@ import java.util.Set;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.interactions.Actions;
 
 public class BasePage {
 
@@ -137,5 +139,18 @@ public class BasePage {
 	}
 	public void switchToIFrame(By iFrame) {
 		driver.switchTo().frame(find(iFrame));
+	}
+	
+	protected void typeKey(By locator) {
+		waitForVisibilityOf(locator, Duration.ofSeconds(5));
+		find(locator).sendKeys(Keys.ENTER);
+	}
+	protected void typeKeyWithAction() {
+		Actions action= new Actions(driver);
+		action.sendKeys(Keys.ENTER).build().perform();
+	}
+	protected void typeKeyWithActionKey(String text) {
+		Actions action= new Actions(driver);
+		action.sendKeys(text).build().perform();
 	}
 }

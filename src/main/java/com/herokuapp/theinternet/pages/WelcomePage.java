@@ -14,6 +14,7 @@ public class WelcomePage extends BasePage {
 	private By newWindows=By.linkText("Multiple Windows");
 	private By iFrame=By.linkText("WYSIWYG Editor");
 	private By keyPresses=By.linkText("Key Presses");
+	private By UploadFile=By.linkText("File Upload");
 	public WelcomePage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
@@ -63,4 +64,11 @@ public class WelcomePage extends BasePage {
 		return new KeyPressesPage(driver,log);
 		
 	}
+	public UploadFilePage clickOnTheUploadFileLink() {
+		log.info("Clicking Upload file link on Welcome Page");
+		click(UploadFile);
+		return new UploadFilePage(driver,log);
+		
+	}
+	
 }

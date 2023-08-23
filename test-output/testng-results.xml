@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-21T20:30:11 CST" name="KeyPressTests" finished-at="2023-08-21T20:30:22 CST" duration-ms="10549">
+  <suite started-at="2023-08-23T17:23:51 CST" name="FileUploadTests" finished-at="2023-08-23T17:23:56 CST" duration-ms="5541">
     <groups>
     </groups>
-    <test started-at="2023-08-21T20:30:11 CST" name="KeyPress" finished-at="2023-08-21T20:30:22 CST" duration-ms="10549">
-      <class name="com.herokuapp.theinternet.keypresstest.KeyPressTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:11 CST" name="setUp" finished-at="2023-08-21T20:30:14 CST" duration-ms="2326" status="PASS">
+    <test started-at="2023-08-23T17:23:51 CST" name="File Upload" finished-at="2023-08-23T17:23:56 CST" duration-ms="5541">
+      <class name="com.herokuapp.theinternet.fileuploadtest.FileUploadTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2a265ea9]" started-at="2023-08-23T17:23:51 CST" name="setUp" finished-at="2023-08-23T17:23:53 CST" duration-ms="2331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,77 +16,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@72bdd7c7]]>
+                <![CDATA[org.testng.TestRunner@35f3a22c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="keyPressedTest()[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:14 CST" name="keyPressedTest" finished-at="2023-08-21T20:30:16 CST" duration-ms="1897" status="PASS">
+        <test-method signature="uploadFileTest()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2a265ea9]" started-at="2023-08-23T17:23:53 CST" name="uploadFileTest" finished-at="2023-08-23T17:23:56 CST" duration-ms="2961" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- keyPressedTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:16 CST" name="tearDown" finished-at="2023-08-21T20:30:16 CST" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:16 CST" name="setUp" finished-at="2023-08-21T20:30:17 CST" duration-ms="961" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@72bdd7c7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="keyPressedWithActionSpecificKeyTest(java.lang.String)[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:17 CST" name="keyPressedWithActionSpecificKeyTest" finished-at="2023-08-21T20:30:19 CST" duration-ms="1813" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[U]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- keyPressedWithActionSpecificKeyTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:19 CST" name="tearDown" finished-at="2023-08-21T20:30:19 CST" duration-ms="227" status="PASS">
+        </test-method> <!-- uploadFileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2a265ea9]" started-at="2023-08-23T17:23:56 CST" name="tearDown" finished-at="2023-08-23T17:23:56 CST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:19 CST" name="setUp" finished-at="2023-08-21T20:30:20 CST" duration-ms="1085" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@72bdd7c7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="keyPressedWithActionTest()[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:20 CST" name="keyPressedWithActionTest" finished-at="2023-08-21T20:30:22 CST" duration-ms="1742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- keyPressedWithActionTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.keypresstest.KeyPressTest@2e8c1c9b]" started-at="2023-08-21T20:30:22 CST" name="tearDown" finished-at="2023-08-21T20:30:22 CST" duration-ms="230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.keypresstest.KeyPressTest -->
-    </test> <!-- KeyPress -->
-  </suite> <!-- KeyPressTests -->
+      </class> <!-- com.herokuapp.theinternet.fileuploadtest.FileUploadTest -->
+    </test> <!-- File Upload -->
+  </suite> <!-- FileUploadTests -->
 </testng-results>

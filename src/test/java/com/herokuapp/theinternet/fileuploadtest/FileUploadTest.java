@@ -13,7 +13,7 @@ public class FileUploadTest extends TestUtilities {
 	UploadFilePage uploadFilePage;
 	@Test
 	public void uploadFileTest() {
-		String filePath="C:\\Users\\orlan\\Downloads\\ARNOLD_EXCELENTE.mp3";
+		String fileName="image1.png";
 		String expectedMessage="File Uploaded!";
 		String actualMessage;
 		//Open Welcome Page
@@ -23,7 +23,7 @@ public class FileUploadTest extends TestUtilities {
 		//Click on Upload File Link button
 		uploadFilePage=welcomePage.clickOnTheUploadFileLink();
 		//Send file location to be uploaded
-		uploadFilePage.sendFileLocationText(filePath);
+		uploadFilePage.sendFileLocationText(fileName);
 		//Click on Upload button
 		actualMessage=uploadFilePage.confirmUploadingFile();
 		//Verify confirmation message

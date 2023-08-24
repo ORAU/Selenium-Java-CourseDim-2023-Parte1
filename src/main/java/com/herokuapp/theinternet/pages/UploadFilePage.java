@@ -12,9 +12,11 @@ public class UploadFilePage extends BasePage{
 	public UploadFilePage(WebDriver driver,Logger log) {
 		super(driver,log);
 	}
-	public void sendFileLocationText(String fileLocation) {
+	public void sendFileLocationText(String fileName) {
+		String filePath;
 		log.info("Sending file location string");
-		type(fileLocation,fileUploaderLocator);
+		filePath=System.getProperty("user.dir")+"\\src\\test\\resources\\Images for tests\\"+fileName;
+		type(filePath,fileUploaderLocator);
 	}
 	public String confirmUploadingFile() {
 		log.info("Clicking on Upload button (upload confirmation)");

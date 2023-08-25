@@ -19,6 +19,11 @@ public class IframesTest extends TestUtilities{
 		//Open WelcomPage
 		welcomePage=new WelcomePage(driver,log);
 		welcomePage.openPage();
+		
+		//Scroll to the bottom
+		sleep(5000);
+		welcomePage.scrollToBottom();
+		sleep(5000);
 		//Click on WYSIWYG Editor link
 		tinyMcePage=welcomePage.clickOnTheIFrameEditorLink();
 		//Validate that text editor contains text: Your content goes here.

@@ -8,6 +8,7 @@ import java.util.Set;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -152,5 +153,11 @@ public class BasePage {
 	protected void typeKeyWithActionKey(String text) {
 		Actions action= new Actions(driver);
 		action.sendKeys(text).build().perform();
+	}
+	
+	public void scrollToBottom() {
+		log.info("Scrolling down to the wysswyg editor");
+		JavascriptExecutor js =(JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 	}
 }

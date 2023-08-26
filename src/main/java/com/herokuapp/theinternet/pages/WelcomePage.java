@@ -15,6 +15,7 @@ public class WelcomePage extends BasePage {
 	private By iFrame=By.linkText("WYSIWYG Editor");
 	private By keyPresses=By.linkText("Key Presses");
 	private By UploadFile=By.linkText("File Upload");
+	private By DragAndDrop=By.linkText("Drag and Drop");
 	public WelcomePage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
@@ -68,6 +69,12 @@ public class WelcomePage extends BasePage {
 		log.info("Clicking Upload file link on Welcome Page");
 		click(UploadFile);
 		return new UploadFilePage(driver,log);
+		
+	}
+	public DragAndDropPage clickOnTheDragAndDropLink() {
+		log.info("Clicking Drag and drop link on Welcome Page");
+		click(DragAndDrop);
+		return new DragAndDropPage(driver,log);
 		
 	}
 	

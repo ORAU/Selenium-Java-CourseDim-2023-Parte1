@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-25T16:45:57 CST" name="IFramesTests" finished-at="2023-08-25T16:46:19 CST" duration-ms="21250">
+  <suite started-at="2023-08-25T18:05:14 CST" name="DragAndDropTests" finished-at="2023-08-25T18:05:23 CST" duration-ms="8380">
     <groups>
     </groups>
-    <test started-at="2023-08-25T16:45:57 CST" name="Iframes" finished-at="2023-08-25T16:46:19 CST" duration-ms="21250">
-      <class name="com.herokuapp.theinternet.iframestest.IframesTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.iframestest.IframesTest@2a265ea9]" started-at="2023-08-25T16:45:58 CST" name="setUp" finished-at="2023-08-25T16:46:02 CST" duration-ms="4341" status="PASS">
+    <test started-at="2023-08-25T18:05:14 CST" name="DragAndDropTests" finished-at="2023-08-25T18:05:23 CST" duration-ms="8380">
+      <class name="com.herokuapp.theinternet.draganddroptest.DragAndDropTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.draganddroptest.DragAndDropTest@2a265ea9]" started-at="2023-08-25T18:05:14 CST" name="setUp" finished-at="2023-08-25T18:05:17 CST" duration-ms="2305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,22 +16,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@194d329e]]>
+                <![CDATA[org.testng.TestRunner@38c9e0d6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="iFrameTest()[pri:0, instance:com.herokuapp.theinternet.iframestest.IframesTest@2a265ea9]" started-at="2023-08-25T16:46:02 CST" name="iFrameTest" finished-at="2023-08-25T16:46:18 CST" duration-ms="16422" status="PASS">
+        <test-method signature="dragAndDropTest()[pri:0, instance:com.herokuapp.theinternet.draganddroptest.DragAndDropTest@2a265ea9]" started-at="2023-08-25T18:05:17 CST" name="dragAndDropTest" finished-at="2023-08-25T18:05:23 CST" duration-ms="5809" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iFrameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.iframestest.IframesTest@2a265ea9]" started-at="2023-08-25T16:46:18 CST" name="tearDown" finished-at="2023-08-25T16:46:19 CST" duration-ms="437" status="PASS">
+        </test-method> <!-- dragAndDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.draganddroptest.DragAndDropTest@2a265ea9]" started-at="2023-08-25T18:05:23 CST" name="tearDown" finished-at="2023-08-25T18:05:23 CST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.iframestest.IframesTest -->
-    </test> <!-- Iframes -->
-  </suite> <!-- IFramesTests -->
+      </class> <!-- com.herokuapp.theinternet.draganddroptest.DragAndDropTest -->
+    </test> <!-- DragAndDropTests -->
+  </suite> <!-- DragAndDropTests -->
 </testng-results>

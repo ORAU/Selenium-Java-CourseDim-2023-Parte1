@@ -49,6 +49,7 @@ public class BasePage {
 
 	/* Click on element with given locator when its visible */
 	protected void click(By locator) {
+		
 		waitForVisibilityOf(locator, Duration.ofSeconds(5));
 		find(locator).click();
 
@@ -181,5 +182,11 @@ public class BasePage {
 						+ "var source = arguments[0];\n" + "var destination = arguments[1];\n"
 						+ "simulateHTML5DragAndDrop(source,destination);",
 				find(elementA), find(elementB));
+	}
+	
+	public void hoverOverElement(WebElement element) {
+		log.info("Hover Over element");
+		Actions action=new Actions(driver);
+		action.moveToElement(element).build().perform();
 	}
 }

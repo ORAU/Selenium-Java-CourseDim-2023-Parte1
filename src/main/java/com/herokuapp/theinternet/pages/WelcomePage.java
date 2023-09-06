@@ -17,6 +17,7 @@ public class WelcomePage extends BasePage {
 	private By UploadFile=By.linkText("File Upload");
 	private By DragAndDrop=By.linkText("Drag and Drop");
 	private By HoverOver=By.linkText("Hovers");
+	private By horizontalSlider=By.linkText("Horizontal Slider");
 	public WelcomePage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}
@@ -83,6 +84,13 @@ public class WelcomePage extends BasePage {
 		log.info("Clicking Hover Over link on Welcome Page");
 		click(HoverOver);
 		return new HoverOverPage(driver,log);
+	}
+
+	public HorizontalSliderPage clickOnHorizontalSliderLink() {
+		// TODO Auto-generated method stub
+		log.info("Clicking on Horizontal Slider on Welcome Page");
+		click(horizontalSlider);
+		return new HorizontalSliderPage(driver,log);
 	}
 	
 

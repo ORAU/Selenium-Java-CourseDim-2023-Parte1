@@ -189,4 +189,10 @@ public class BasePage {
 		Actions action=new Actions(driver);
 		action.moveToElement(element).build().perform();
 	}
+	public void dragAndDropHorizontalElement(WebElement element, int valuex) {
+		Actions action =new Actions(driver);
+		action.dragAndDropBy(element, 0, 0).build().perform();// 5:2.5  10:3  20:3.5 30:4 //60:5
+		
+		
+	}
 }

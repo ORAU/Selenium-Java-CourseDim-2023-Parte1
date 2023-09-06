@@ -11,13 +11,13 @@ public class FileUploadTest extends TestUtilities {
 
 	WelcomePage welcomePage;
 	UploadFilePage uploadFilePage;
-	@Test
-	public void uploadFileTest() {
-		String fileName="image1.png";
+	@Test(dataProvider="imageFiles")
+	public void uploadFileTest(int number,String fileName) {
+		
 		String expectedMessage="File Uploaded!";
 		String actualMessage;
 		//Open Welcome Page
-		log.info("Executing upload file test");
+		log.info("Executing upload file test number: "+number+" using file:"+fileName);
 		welcomePage=new WelcomePage(driver,log);
 		welcomePage.openPage();
 		//Click on Upload File Link button

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [HorizontalSliderTests]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="HorizontalSliderTests(failed)">
+<suite name="Failed suite [FileUploadTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="File Upload(failed)">
     <classes>
-      <class name="com.herokuapp.theinternet.horizontalslidertest.HorizontalSliderTest">
+      <class name="com.herokuapp.theinternet.fileuploadtest.FileUploadTest">
         <methods>
+          <include name="uploadFileTest"/>
           <include name="tearDown"/>
-          <include name="horizontalSliderTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.horizontalslidertest.HorizontalSliderTest -->
+      </class> <!-- com.herokuapp.theinternet.fileuploadtest.FileUploadTest -->
     </classes>
-  </test> <!-- HorizontalSliderTests(failed) -->
-</suite> <!-- Failed suite [HorizontalSliderTests] -->
+  </test> <!-- File Upload(failed) -->
+</suite> <!-- Failed suite [FileUploadTests] -->

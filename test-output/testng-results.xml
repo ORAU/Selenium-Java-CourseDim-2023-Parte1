@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-06T12:42:19 CST" name="FileUploadTests" finished-at="2023-09-06T12:42:34 CST" duration-ms="15045">
+  <suite started-at="2023-09-20T11:47:43 CST" name="FileUploadTests" finished-at="2023-09-20T11:48:20 CST" duration-ms="37314">
     <groups>
     </groups>
-    <test started-at="2023-09-06T12:42:19 CST" name="File Upload" finished-at="2023-09-06T12:42:34 CST" duration-ms="15045">
+    <test started-at="2023-09-20T11:47:43 CST" name="File Upload" finished-at="2023-09-20T11:48:20 CST" duration-ms="37314">
       <class name="com.herokuapp.theinternet.fileuploadtest.FileUploadTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:19 CST" name="setUp" finished-at="2023-09-06T12:42:22 CST" duration-ms="3135" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:47:43 CST" name="setUp" finished-at="2023-09-20T11:47:49 CST" duration-ms="5945" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,14 +16,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@628b819d]]>
+                <![CDATA[org.testng.TestRunner@67bd351e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:22 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-06T12:42:24 CST" duration-ms="2083" status="PASS">
+        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:47:49 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-20T11:47:55 CST" duration-ms="6534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:24 CST" name="tearDown" finished-at="2023-09-06T12:42:24 CST" duration-ms="321" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:47:55 CST" name="tearDown" finished-at="2023-09-20T11:47:56 CST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:24 CST" name="setUp" finished-at="2023-09-06T12:42:25 CST" duration-ms="869" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:47:56 CST" name="setUp" finished-at="2023-09-20T11:47:57 CST" duration-ms="987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,14 +52,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@628b819d]]>
+                <![CDATA[org.testng.TestRunner@67bd351e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:25 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-06T12:42:27 CST" duration-ms="2296" status="PASS">
+        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:47:57 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-20T11:48:02 CST" duration-ms="5813" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:27 CST" name="tearDown" finished-at="2023-09-06T12:42:28 CST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:48:02 CST" name="tearDown" finished-at="2023-09-20T11:48:03 CST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:28 CST" name="setUp" finished-at="2023-09-06T12:42:29 CST" duration-ms="858" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:48:03 CST" name="setUp" finished-at="2023-09-20T11:48:04 CST" duration-ms="964" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,14 +88,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@628b819d]]>
+                <![CDATA[org.testng.TestRunner@67bd351e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:29 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-06T12:42:31 CST" duration-ms="1936" status="PASS">
+        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:48:04 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-20T11:48:11 CST" duration-ms="7399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:31 CST" name="tearDown" finished-at="2023-09-06T12:42:31 CST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:48:11 CST" name="tearDown" finished-at="2023-09-20T11:48:11 CST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:31 CST" name="setUp" finished-at="2023-09-06T12:42:32 CST" duration-ms="863" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:48:11 CST" name="setUp" finished-at="2023-09-20T11:48:12 CST" duration-ms="831" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,14 +124,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@628b819d]]>
+                <![CDATA[org.testng.TestRunner@67bd351e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:32 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-06T12:42:34 CST" duration-ms="2007" status="PASS">
+        <test-method signature="uploadFileTest(int,java.lang.String)[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:48:12 CST" name="uploadFileTest" data-provider="imageFiles" finished-at="2023-09-20T11:48:20 CST" duration-ms="7940" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-06T12:42:34 CST" name="tearDown" finished-at="2023-09-06T12:42:34 CST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.fileuploadtest.FileUploadTest@2af004b]" started-at="2023-09-20T11:48:20 CST" name="tearDown" finished-at="2023-09-20T11:48:20 CST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

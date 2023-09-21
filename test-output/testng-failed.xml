@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="4" parallel="tests" name="Failed suite [NegativeLogInTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="4" parallel="tests" name="NegativeUsernameTest-CH(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Javascripts Alerts Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="JS Alert Test(failed)">
+    <parameter name="message" value="Testing"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoggInTests">
+      <class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">
         <methods>
-          <include name="negativeTest"/>
+          <include name="javascriptAlertTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoggInTests -->
+      </class> <!-- com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests -->
     </classes>
-  </test> <!-- NegativeUsernameTest-CH(failed) -->
-</suite> <!-- Failed suite [NegativeLogInTestSuite] -->
+  </test> <!-- JS Alert Test(failed) -->
+</suite> <!-- Failed suite [Javascripts Alerts Suite] -->

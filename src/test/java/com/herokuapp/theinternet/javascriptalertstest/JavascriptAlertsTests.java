@@ -3,6 +3,7 @@ package com.herokuapp.theinternet.javascriptalertstest;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -15,9 +16,10 @@ public class JavascriptAlertsTests extends TestUtilities{
 	private WelcomePage welcomePage;
 	private JavascriptAlertsPage javascriptAlertsPage;
 	private String actualResult;
-@Test(priority=1)
+@Test(priority=1, groups= {"regression"})
 public void javascriptAlertTest() {
-	String expectedMessage="You successfully clicked an alert";
+	SoftAssert softAssert =new SoftAssert();
+	String expectedMessage="You successfully clicked an alert!";
 	log.info("Executing javascriptAlertTest");
 	welcomePage=new WelcomePage(driver,log);
 	welcomePage.openPage();
@@ -26,11 +28,17 @@ public void javascriptAlertTest() {
 	sleep(3000);
 	String actualMessage=javascriptAlertsPage.getTextJSAlert();
 	javascriptAlertsPage.clickOnAcceptOptionJSAlert();
-	Assert.assertEquals(actualMessage,"I am a JS Alert");
-	Assert.assertEquals(expectedMessage,javascriptAlertsPage.getResultText(), "The results are differents");
+	softAssert.assertEquals(actualMessage,"I am a JS Alert!");
+	softAssert.assertEquals(javascriptAlertsPage.getResultText(),expectedMessage, "The results are differents");
+	//Assert.assertEquals(actualMessage,"I am a JS Alert!");
+	//Assert.assertEquals(javascriptAlertsPage.getResultText(),expectedMessage, "The results are differents");
+	 
+	log.info("Finishing execution of javascriptAlertTest");
+	softAssert.assertAll();
+
 }
 
-@Test(priority=2)
+@Test(priority=2, groups= {"smoke"})
 public void javascriptConfirmJSConfirmTest() {
 	String expectedMessage="You clicked: Ok";
 	log.info("Executing javascriptConfirmJSConfirmTest");
@@ -45,7 +53,7 @@ public void javascriptConfirmJSConfirmTest() {
 	Assert.assertEquals(expectedMessage,javascriptAlertsPage.getResultText(), "The results are differents");
 }
 
-@Test(priority=3)
+@Test(priority=3,groups= {"negative"})
 public void javascriptCancelJSConfirmTest() {
 	String expectedMessage="You clicked: Cancel";
 	log.info("Executing javascriptCancelJSConfirmTest");
@@ -59,7 +67,7 @@ public void javascriptCancelJSConfirmTest() {
 	Assert.assertEquals(actualMessage,"I am a JS Confirm");
 	Assert.assertEquals(expectedMessage,javascriptAlertsPage.getResultText(), "The results are differents");
 }
-@Test(priority=4)
+@Test(priority=4,groups= {"positive"})
 @Parameters("message")
 public void javascriptConfirmJSPromptTest(String message) {
 	String expectedMessage="You entered: "+message;
@@ -76,7 +84,7 @@ public void javascriptConfirmJSPromptTest(String message) {
 	Assert.assertEquals(javascriptAlertsPage.getResultText(),expectedMessage, "The results are differents");
 }
 
-@Test(priority=5)
+@Test(priority=5,groups= {"negative"})
 @Parameters("message")
 public void javascriptCancelJSPromptTest(String message) {
 	String expectedMessage="You entered: null";

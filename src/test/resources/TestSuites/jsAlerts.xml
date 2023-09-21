@@ -1,9 +1,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Javascripts Alerts Suite">
+	<groups>
+			<run>
+				<include name="regression"></include>
+				<!--<include name="smoke"></include>
+				<include name="positive"></include> 
+				<exclude name="negative"></exclude>-->
+			</run>
+		</groups>
 	<test name="JS Alert Test">
 		<parameter name="message" value="Testing"/>
+		
 		<classes>			
-		<class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests"></class>	
+		<class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">			
+		</class>	
 		</classes>
 	</test>
+	
 </suite>

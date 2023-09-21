@@ -3,15 +3,16 @@
 <suite name="Failed suite [Javascripts Alerts Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="JS Alert Test(failed)">
     <parameter name="message" value="Testing"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">
         <methods>
-          <include name="javascriptCancelJSPromptTest"/>
-          <include name="javascriptConfirmJSConfirmTest"/>
-          <include name="tearDown"/>
           <include name="javascriptAlertTest"/>
-          <include name="javascriptConfirmJSPromptTest"/>
-          <include name="javascriptCancelJSConfirmTest"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests -->

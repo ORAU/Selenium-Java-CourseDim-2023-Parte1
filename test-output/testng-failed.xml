@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FileUploadTests]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="File Upload(failed)">
+<suite thread-count="4" parallel="tests" name="Failed suite [NegativeLogInTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="NegativeUsernameTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.herokuapp.theinternet.fileuploadtest.FileUploadTest">
+      <class name="com.herokuapp.theinternet.loginpagetest.NegativeLoggInTests">
         <methods>
-          <include name="uploadFileTest"/>
+          <include name="negativeTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.fileuploadtest.FileUploadTest -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.NegativeLoggInTests -->
     </classes>
-  </test> <!-- File Upload(failed) -->
-</suite> <!-- Failed suite [FileUploadTests] -->
+  </test> <!-- NegativeUsernameTest-CH(failed) -->
+</suite> <!-- Failed suite [NegativeLogInTestSuite] -->

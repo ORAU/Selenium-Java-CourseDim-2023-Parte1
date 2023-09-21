@@ -1,20 +1,31 @@
 package com.herokuapp.theinternet.loginpagetest;
 
 
+import java.util.Map;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+import com.herokuapp.theinternet.base.CsvDataProvider;
 import com.herokuapp.theinternet.base.TestUtilities;
 
 public class NegativeLoggInTests extends TestUtilities {
 
-	@Parameters({ "username", "password", "expectedMessage" })
-	@Test(priority = 1)
-	public void negativeTest(String username, String password, String expectedErrorMessage) {
+	@DataProvider(name="csvDataProvider")
+	@Test(priority = 1 ,dataProvider="csvDataProvider" ,dataProviderClass=CsvDataProvider.class)
+	public void negativeTest(Map<String,String> testData) {
 		log.info("Starting negativeTest");
-
+		//data
+		String number =testData.get("number");
+		String username=testData.get("username");
+		String password=testData.get("password");
+		String expectedErrorMessage=testData.get("expectedMessage");
+		String description=testData.get("description");
+		log.info("Starting new test number: "+number + " Test: "+description);
+		
+		
 		// open main page
 		String url = "http://the-internet.herokuapp.com/";
 		driver.get(url);

@@ -1,0 +1,6 @@
+number,username,password,expectedMessage,description
+1,incorrectUsername,SuperSecretPassword!,Your username is invalid!,Incorrect username
+2,tomsmith,incorrectPassword,Your password is invalid!,Invalid password
+3,incorrectUsername,incorrectPassword,Your username is invalid!,Username and password are incorrect
+4,,SuperSecretPassword,Your username is invalid!,Empty username
+5,tomsmith,,Your password is invalid!,Empty password

@@ -34,6 +34,12 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.9.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>5.7.1</version>
+		</dependency>
 
 	</dependencies>
 	<build>
@@ -55,16 +61,24 @@
 
 				<configuration>
 					<suiteXmlFiles>
-<suiteXmlFile>src/test/resources/TestSuites/debug.xml</suiteXmlFile>
-<suiteXmlFile>src/test/resources/TestSuites/loginPOM.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/loginTests.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/negative_loginPOM.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/NegativeLogInTest.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/NegativeLogInTest2.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/negativeTests_2.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/negativeTests_3.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/negativeTests.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/TestSuites/positiveTests.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/debug.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/loginPOM.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/loginTests.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/negative_loginPOM.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/NegativeLogInTest.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/NegativeLogInTest2.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/negativeTests_2.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/negativeTests_3.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/negativeTests.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/TestSuites/positiveTests.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 				</configuration>

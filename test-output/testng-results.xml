@@ -2,31 +2,36 @@
 <testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-21T14:11:29 CST" name="Javascripts Alerts Suite" finished-at="2023-09-21T14:11:39 CST" duration-ms="9591">
+  <suite started-at="2023-09-22T11:58:16 CST" name="Javascripts Alerts Suite" finished-at="2023-09-22T11:58:28 CST" duration-ms="11253">
     <groups>
       <group name="regression">
-        <method signature="JavascriptAlertsTests.javascriptAlertTest()[pri:1, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@548d708a]" name="javascriptAlertTest" class="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests"/>
+        <method signature="JavascriptAlertsTests.javascriptAlertTest()[pri:1, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" name="javascriptAlertTest" class="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2023-09-21T14:11:29 CST" name="JS Alert Test" finished-at="2023-09-21T14:11:39 CST" duration-ms="9591">
+    <test started-at="2023-09-22T11:58:16 CST" name="JS Alert Test" finished-at="2023-09-22T11:58:28 CST" duration-ms="11253">
       <class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@548d708a]" started-at="2023-09-21T14:11:30 CST" name="setUp" finished-at="2023-09-21T14:11:33 CST" duration-ms="3299" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" started-at="2023-09-22T11:58:16 CST" name="setUp" finished-at="2023-09-22T11:58:20 CST" duration-ms="3086" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[public void com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests.javascriptAlertTest()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3762c4fc]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@73ae0257]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="javascriptAlertTest()[pri:1, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@548d708a]" started-at="2023-09-21T14:11:33 CST" name="javascriptAlertTest" finished-at="2023-09-21T14:11:39 CST" duration-ms="5892" status="FAIL">
+        <test-method signature="javascriptAlertTest()[pri:1, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" started-at="2023-09-22T11:58:20 CST" name="javascriptAlertTest" finished-at="2023-09-22T11:58:27 CST" duration-ms="7862" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -39,7 +44,7 @@ expected [I am a JS Alert!] but found [I am a JS Alert],
 The results are differents expected [You successfully clicked an alert!] but found [You successfully clicked an alert]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests.javascriptAlertTest(JavascriptAlertsTests.java:37)
+at com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests.javascriptAlertTest(JavascriptAlertsTests.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -74,7 +79,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- javascriptAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@548d708a]" started-at="2023-09-21T14:11:39 CST" name="tearDown" finished-at="2023-09-21T14:11:39 CST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" started-at="2023-09-22T11:58:27 CST" name="tearDown" finished-at="2023-09-22T11:58:28 CST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

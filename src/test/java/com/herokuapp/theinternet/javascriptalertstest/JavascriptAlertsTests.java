@@ -23,7 +23,9 @@ public void javascriptAlertTest() {
 	log.info("Executing javascriptAlertTest");
 	welcomePage=new WelcomePage(driver,log);
 	welcomePage.openPage();
+	takeScreenshot("Opening WelcomePage");
 	javascriptAlertsPage=welcomePage.clickOnTheJavascriptAlertsLink();
+	takeScreenshot("Clicking on JS AlertButton");
 	javascriptAlertsPage.clickOnJsAlertButton();
 	sleep(3000);
 	String actualMessage=javascriptAlertsPage.getTextJSAlert();

@@ -8,6 +8,9 @@ import java.io.IOException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import org.openqa.selenium.TakesScreenshot;
+import java.util.List;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
 public class TestUtilities extends BaseTest{
 	
 	protected void sleep (long milis) {
@@ -62,5 +65,11 @@ public class TestUtilities extends BaseTest{
 	private static String getSystemTime()	{
 		return (new SimpleDateFormat("hhmm").format(new Date()));
 	}
-	
+	//Get logs from browser console
+	protected List<LogEntry> verifyJavascriptErrorMessages() {
+		LogEntries log =driver.manage().logs().get("browser");
+		List<LogEntry> logList=log.getAll();
+		return logList;
+		
+	}
 }

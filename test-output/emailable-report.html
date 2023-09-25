@@ -8,15 +8,17 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Javascripts Alerts Suite</th></tr>
-<tr><td><a href="#t0">JS Alert Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,253</td><td>regression</td><td></td></tr>
+<tr><th colspan="8">JavascriptErrorTests</th></tr>
+<tr><td><a href="#t0">JavascriptErrorTests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,673</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Javascripts Alerts Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">JS Alert Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests</td><td><a href="#m0">javascriptAlertTest</a></td><td rowspan="1">1695405500072</td><td rowspan="1">7862</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">JavascriptErrorTests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">JavascriptErrorTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests</td><td><a href="#m0">javascriptLoadingPageTest</a></td><td rowspan="1">1695682792356</td><td rowspan="1">1942</td></tr></tbody>
 </table>
-<h2>JS Alert Test</h2><h3 id="m0">com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests#javascriptAlertTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	expected [I am a JS Alert!] but found [I am a JS Alert],
-	The results are differents expected [You successfully clicked an alert!] but found [You successfully clicked an alert]
-	at com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests.javascriptAlertTest(JavascriptAlertsTests.java:39)
+<h2>JavascriptErrorTests</h2><h3 id="m0">com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests#javascriptLoadingPageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Severe error: https://298279967.log.optimizely.com/event?a=298279967&amp;d=298279967&amp;y=false&amp;n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&amp;u=oeu1695682793190r0.887715345556072&amp;wxhr=true&amp;t=1695682793192&amp;f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+	Severe error: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found),
+	Severe error: https://298279967.log.optimizely.com/event?a=298279967&amp;d=298279967&amp;y=false&amp;n=engagement&amp;g=298283957&amp;u=oeu1695682793190r0.887715345556072&amp;wxhr=true&amp;t=1695682794133&amp;f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+	Severe error: https://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read properties of undefined (reading &apos;xyz&apos;)
+	at com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests.javascriptLoadingPageTest(JavascriptErrorTests.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

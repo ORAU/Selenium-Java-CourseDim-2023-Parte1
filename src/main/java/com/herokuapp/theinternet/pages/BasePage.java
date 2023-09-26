@@ -8,6 +8,7 @@ import java.util.Set;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -192,7 +193,17 @@ public class BasePage {
 	public void dragAndDropHorizontalElement(WebElement element, int valuex) {
 		Actions action =new Actions(driver);
 		action.dragAndDropBy(element, 0, 0).build().perform();// 5:2.5  10:3  20:3.5 30:4 //60:5
+		}
+	//Adding a new cookie
+	public void setCookie(Cookie ck) {
+		log.info(" Adding a new cookie called: "+ck.getName());
+		driver.manage().addCookie(ck);
+		log.info("Cookied added successfully");
 		
-		
+	}
+	//Getting a specific cookie
+	public String getCookie(String name) {
+		log.info("Getting named cookie: "+name);
+		return driver.manage().getCookieNamed(name).getValue();
 	}
 }

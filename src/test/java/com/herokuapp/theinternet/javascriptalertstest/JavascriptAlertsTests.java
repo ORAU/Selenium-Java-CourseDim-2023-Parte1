@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+import org.openqa.selenium.Cookie;
 import com.herokuapp.theinternet.base.TestUtilities;
 import com.herokuapp.theinternet.pages.JavascriptAlertsPage;
 import com.herokuapp.theinternet.pages.WelcomePage;
@@ -23,8 +23,13 @@ public void javascriptAlertTest() {
 	log.info("Executing javascriptAlertTest");
 	welcomePage=new WelcomePage(driver,log);
 	welcomePage.openPage();
+	Cookie ck=new Cookie("username","tomsmith","the-internet.herokuapp.com","/",null);
+	welcomePage.setCookie(ck);
+	
+	log.info("Cookie: "+welcomePage.getCookie("username"));
 	takeScreenshot("Opening WelcomePage");
 	javascriptAlertsPage=welcomePage.clickOnTheJavascriptAlertsLink();
+	javascriptAlertsPage.setCookie(ck);
 	takeScreenshot("Clicking on JS AlertButton");
 	javascriptAlertsPage.clickOnJsAlertButton();
 	sleep(3000);

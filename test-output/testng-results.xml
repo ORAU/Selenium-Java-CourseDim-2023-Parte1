@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-25T16:59:49 CST" name="JavascriptErrorTests" finished-at="2023-09-25T16:59:54 CST" duration-ms="4673">
+  <suite started-at="2023-09-26T10:13:23 CST" name="JavascriptErrorTests" finished-at="2023-09-26T10:13:28 CST" duration-ms="4862">
     <groups>
     </groups>
-    <test started-at="2023-09-25T16:59:49 CST" name="JavascriptErrorTests" finished-at="2023-09-25T16:59:54 CST" duration-ms="4673">
+    <test started-at="2023-09-26T10:13:23 CST" name="JavascriptErrorTests" finished-at="2023-09-26T10:13:28 CST" duration-ms="4862">
       <class name="com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests@2034b64c]" started-at="2023-09-25T16:59:50 CST" name="setUp" finished-at="2023-09-25T16:59:52 CST" duration-ms="2336" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests@75d3a5e0]" started-at="2023-09-26T10:13:24 CST" name="setUp" finished-at="2023-09-26T10:13:26 CST" duration-ms="2397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,27 +21,27 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@29fa6b65]]>
+                <![CDATA[org.testng.TestRunner@1491344a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="javascriptLoadingPageTest()[pri:0, instance:com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests@2034b64c]" started-at="2023-09-25T16:59:52 CST" name="javascriptLoadingPageTest" finished-at="2023-09-25T16:59:54 CST" duration-ms="1942" status="FAIL">
+        <test-method signature="javascriptLoadingPageTest()[pri:0, instance:com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests@75d3a5e0]" started-at="2023-09-26T10:13:26 CST" name="javascriptLoadingPageTest" finished-at="2023-09-26T10:13:28 CST" duration-ms="1594" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1695682793190r0.887715345556072&wxhr=true&t=1695682793192&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1695744807330r0.7526450927057515&wxhr=true&t=1695744807333&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
 Severe error: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found),
-Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1695682793190r0.887715345556072&wxhr=true&t=1695682794133&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1695744807330r0.7526450927057515&wxhr=true&t=1695744807920&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
 Severe error: https://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read properties of undefined (reading 'xyz')]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1695682793190r0.887715345556072&wxhr=true&t=1695682793192&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1695744807330r0.7526450927057515&wxhr=true&t=1695744807333&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
 Severe error: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found),
-Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1695682793190r0.887715345556072&wxhr=true&t=1695682794133&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+Severe error: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1695744807330r0.7526450927057515&wxhr=true&t=1695744807920&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
 Severe error: https://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read properties of undefined (reading 'xyz')
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
@@ -80,7 +80,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- javascriptLoadingPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests@2034b64c]" started-at="2023-09-25T16:59:54 CST" name="tearDown" finished-at="2023-09-25T16:59:54 CST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests@75d3a5e0]" started-at="2023-09-26T10:13:28 CST" name="tearDown" finished-at="2023-09-26T10:13:28 CST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

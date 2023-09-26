@@ -130,9 +130,9 @@
                   </a> <!-- javascriptLoadingPageTest -->
                   <span class="method-name">javascriptLoadingPageTest</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	Severe error: https://298279967.log.optimizely.com/event?a=298279967&amp;d=298279967&amp;y=false&amp;n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&amp;u=oeu1695682793190r0.887715345556072&amp;wxhr=true&amp;t=1695682793192&amp;f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+	Severe error: https://298279967.log.optimizely.com/event?a=298279967&amp;d=298279967&amp;y=false&amp;n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&amp;u=oeu1695744807330r0.7526450927057515&amp;wxhr=true&amp;t=1695744807333&amp;f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
 	Severe error: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found),
-	Severe error: https://298279967.log.optimizely.com/event?a=298279967&amp;d=298279967&amp;y=false&amp;n=engagement&amp;g=298283957&amp;u=oeu1695682793190r0.887715345556072&amp;wxhr=true&amp;t=1695682794133&amp;f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
+	Severe error: https://298279967.log.optimizely.com/event?a=298279967&amp;d=298279967&amp;y=false&amp;n=engagement&amp;g=298283957&amp;u=oeu1695744807330r0.7526450927057515&amp;wxhr=true&amp;t=1695744807920&amp;f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED,
 	Severe error: https://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read properties of undefined (reading &apos;xyz&apos;)
 	at com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests.javascriptLoadingPageTest(JavascriptErrorTests.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -152,6 +152,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;JavascriptErrorTests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.herokuapp.theinternet.base.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;JavascriptErrorTests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests&quot;/&gt;
@@ -198,7 +201,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'javascriptLoadingPageTest')
 data.setCell(0, 2, 'com.herokuapp.theinternet.javascripterrortest.JavascriptErrorTests')
-data.setCell(0, 3, 1942);
+data.setCell(0, 3, 1594);
 window.suiteTableData['JavascriptErrorTests']= { tableData: data, tableDiv: 'times-div-JavascriptErrorTests'}
 return data;
 }
@@ -238,11 +241,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">javascriptLoadingPageTest</span>
-                <span class="method-start">2337 ms</span>
+                <span class="method-start">2398 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4285 ms</span>
+                <span class="method-start">3995 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

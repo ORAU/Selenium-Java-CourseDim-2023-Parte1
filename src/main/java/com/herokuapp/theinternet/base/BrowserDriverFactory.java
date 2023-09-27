@@ -1,9 +1,13 @@
 package com.herokuapp.theinternet.base;
+
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 public class BrowserDriverFactory {
 private ThreadLocal <WebDriver>driver=new ThreadLocal<WebDriver>();
 private String browser;
@@ -50,5 +54,19 @@ public WebDriver createDriverWithProfile(String profile) {
 	return driver.get();
 	
 }
+public WebDriver createChromeWithMobileEmulation(String deviceName) {
+	
+	log.info("Starting browser with "+deviceName+" name emulation.");
+	HashMap<String,String>mobileEmulation=new HashMap<String,String>();
+	mobileEmulation.put("deviceName", deviceName);
+	ChromeOptions chromeOptions=new ChromeOptions();
+	chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+	//chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+	driver.set( new ChromeDriver(chromeOptions));	
+	return driver.get();
+}
+
+
 
 }

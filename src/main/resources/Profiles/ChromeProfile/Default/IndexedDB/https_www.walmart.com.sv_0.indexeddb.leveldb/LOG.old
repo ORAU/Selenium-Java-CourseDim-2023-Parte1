@@ -1,0 +1,6 @@
+2023/03/13-10:07:27.341 1948 Creating DB C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.walmart.com.sv_0.indexeddb.leveldb since it was missing.
+2023/03/13-10:07:27.344 1948 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.walmart.com.sv_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/13-10:14:16.725 82fc Level-0 table #5: started
+2023/03/13-10:14:16.731 82fc Level-0 table #5: 158015 bytes OK
+2023/03/13-10:14:16.732 82fc Delete type=0 #3
+2023/03/13-10:14:16.732 82fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

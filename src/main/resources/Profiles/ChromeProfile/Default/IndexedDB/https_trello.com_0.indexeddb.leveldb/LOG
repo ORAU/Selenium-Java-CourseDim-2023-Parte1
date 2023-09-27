@@ -1,0 +1,15 @@
+2023/09/15-09:59:09.346 47e0 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_trello.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/15-09:59:09.347 47e0 Recovering log #31
+2023/09/15-09:59:09.356 47e0 Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_trello.com_0.indexeddb.leveldb/000031.log 
+2023/09/15-19:05:30.043 47e0 Level-0 table #36: started
+2023/09/15-19:05:30.059 47e0 Level-0 table #36: 744317 bytes OK
+2023/09/15-19:05:30.064 47e0 Delete type=0 #31
+2023/09/15-19:05:30.065 47e0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/15-19:05:30.065 47e0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01"\x04\x02\x01\x06\x00t\x00r\x00e\x00l\x00l\x00o\x03\x00\x10\xb0\x8e\x9e\xa9xB\x00\x01$\x007\x00a\x00f\x008\x003\x001\x00c\x002\x00-\x001\x002\x003\x00a\x00-\x004\x00f\x002\x005\x00-\x00b\x007\x005\x002\x00-\x008\x006\x009\x001\x006\x003\x007\x00f\x00e\x004\x00d\x002' @ 149365 : 1
+2023/09/15-19:05:30.065 47e0 Compacting 1@1 + 1@2 files
+2023/09/15-19:05:30.085 47e0 Generated table #37@1: 7381 keys, 521256 bytes
+2023/09/15-19:05:30.085 47e0 Compacted 1@1 + 1@2 files => 521256 bytes
+2023/09/15-19:05:30.085 47e0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/15-19:05:30.086 47e0 Delete type=2 #33
+2023/09/15-19:05:30.086 47e0 Delete type=2 #36
+2023/09/15-19:05:30.087 47e0 Manual compaction at level-1 from '\x00\x01\x01"\x04\x02\x01\x06\x00t\x00r\x00e\x00l\x00l\x00o\x03\x00\x10\xb0\x8e\x9e\xa9xB\x00\x01$\x007\x00a\x00f\x008\x003\x001\x00c\x002\x00-\x001\x002\x003\x00a\x00-\x004\x00f\x002\x005\x00-\x00b\x007\x005\x002\x00-\x008\x006\x009\x001\x006\x003\x007\x00f\x00e\x004\x00d\x002' @ 149365 : 1 .. (end); will stop at (end)

@@ -1,0 +1,25 @@
+2023/09/26-09:19:13.550 21dc Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_outlook.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/26-09:19:13.551 21dc Recovering log #494
+2023/09/26-09:19:13.551 21dc Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_outlook.live.com_0.indexeddb.leveldb/000494.log 
+2023/09/26-09:19:13.551 21dc Delete type=2 #493
+2023/09/26-09:19:13.915 2c78 Level-0 table #499: started
+2023/09/26-09:19:13.916 2c78 Level-0 table #499: 595 bytes OK
+2023/09/26-09:19:13.917 2c78 Delete type=0 #494
+2023/09/26-09:19:13.917 2c78 Manual compaction at level-0 from '\x00\x8f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x90\x00\x00\x00' @ 0 : 0; will stop at '\x00\x90\x00\x00\x05' @ 8405 : 1
+2023/09/26-09:19:13.918 2c78 Compacting 1@0 + 1@1 files
+2023/09/26-09:19:13.919 2c78 Generated table #500@0: 41 keys, 681 bytes
+2023/09/26-09:19:13.919 2c78 Compacted 1@0 + 1@1 files => 681 bytes
+2023/09/26-09:19:13.919 2c78 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/26-09:19:13.920 2c78 Delete type=2 #499
+2023/09/26-09:19:13.920 21dc Manual compaction at level-0 from '\x00\x90\x00\x00\x05' @ 8405 : 1 .. '\x00\x90\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/26-09:19:13.921 2948 Level-0 table #502: started
+2023/09/26-09:19:13.922 2948 Level-0 table #502: 492 bytes OK
+2023/09/26-09:19:13.923 2948 Delete type=2 #496
+2023/09/26-09:19:13.923 2948 Delete type=0 #498
+2023/09/26-09:19:13.924 2948 Manual compaction at level-0 from '\x00\x90\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x91\x00\x00\x00' @ 0 : 0; will stop at '\x00\x90\x00\x00\x05' @ 8431 : 0
+2023/09/26-09:19:13.924 2948 Compacting 1@0 + 1@1 files
+2023/09/26-09:19:13.925 2948 Generated table #503@0: 38 keys, 556 bytes
+2023/09/26-09:19:13.925 2948 Compacted 1@0 + 1@1 files => 556 bytes
+2023/09/26-09:19:13.925 2948 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/26-09:19:13.926 2948 Delete type=2 #502
+2023/09/26-09:19:13.926 2948 Manual compaction at level-0 from '\x00\x90\x00\x00\x05' @ 8431 : 0 .. '\x00\x91\x00\x00\x00' @ 0 : 0; will stop at (end)

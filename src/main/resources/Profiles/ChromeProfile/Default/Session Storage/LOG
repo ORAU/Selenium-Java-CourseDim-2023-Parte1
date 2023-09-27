@@ -1,0 +1,21 @@
+2023/09/22-13:12:37.460 24c4 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\Session Storage/MANIFEST-000001
+2023/09/22-13:12:37.461 24c4 Recovering log #971
+2023/09/22-13:12:37.463 24c4 Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\Session Storage/000971.log 
+2023/09/22-13:17:49.022 2610 Level-0 table #975: started
+2023/09/22-13:17:49.025 2610 Level-0 table #975: 17949 bytes OK
+2023/09/22-13:17:49.026 2610 Delete type=0 #971
+2023/09/25-18:18:32.015 2610 Level-0 table #977: started
+2023/09/25-18:18:32.020 2610 Level-0 table #977: 23905 bytes OK
+2023/09/25-18:18:32.023 2610 Delete type=0 #974
+2023/09/25-18:18:32.024 24c4 Compacting 4@0 + 1@1 files
+2023/09/25-18:18:32.055 24c4 Generated table #978@0: 30042 keys, 607218 bytes
+2023/09/25-18:18:32.056 24c4 Compacted 4@0 + 1@1 files => 607218 bytes
+2023/09/25-18:18:32.056 24c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/25-18:18:32.057 24c4 Delete type=2 #968
+2023/09/25-18:18:32.058 24c4 Delete type=2 #970
+2023/09/25-18:18:32.058 24c4 Delete type=2 #972
+2023/09/25-18:18:32.058 24c4 Delete type=2 #975
+2023/09/25-18:18:32.058 24c4 Delete type=2 #977
+2023/09/26-15:53:08.718 24c4 Level-0 table #980: started
+2023/09/26-15:53:08.728 24c4 Level-0 table #980: 19734 bytes OK
+2023/09/26-15:53:08.731 24c4 Delete type=0 #976

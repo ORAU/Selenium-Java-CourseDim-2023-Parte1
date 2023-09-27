@@ -1,0 +1,187 @@
+{
+   "checksum": "77ad5f7571d8e8190bc0a180de9d651b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13309378004993072",
+            "date_last_used": "13334630514609871",
+            "guid": "c6c5dc71-2d15-4471-8264-7e393e7a6f76",
+            "id": "5",
+            "name": "¡Udemy en el móvil! | Udemy",
+            "type": "url",
+            "url": "https://www.udemy.com/mobile/ipad/"
+         }, {
+            "date_added": "13322182829800148",
+            "date_last_used": "13322621369581373",
+            "guid": "f300a4f0-942b-4152-a40b-b21e2552b68d",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MyELT | Online English Language Learning",
+            "type": "url",
+            "url": "https://myelt.heinle.com/ilrn/authentication/signIn.do?inst=MYELT"
+         }, {
+            "date_added": "13323234944729267",
+            "date_last_used": "0",
+            "guid": "69f31383-2656-4d3e-bd69-67b0b34ba1fb",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "10 Medidas para dejar de ser LENTO en el trabajo",
+            "type": "url",
+            "url": "https://tusbuenosmomentos.com/dejar-ser-lento-trabajo/"
+         }, {
+            "date_added": "13323376909515828",
+            "date_last_used": "0",
+            "guid": "047f3131-c796-41f9-9f80-74293c475905",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "14 Ideas para combatir el perfeccionismo",
+            "type": "url",
+            "url": "https://tusbuenosmomentos.com/combatir-perfeccionismo/"
+         }, {
+            "date_added": "13324018371646669",
+            "date_last_used": "13326253627364566",
+            "guid": "36dc2dd7-645f-4daf-9199-25b5af58e97b",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Level 2 Student's Book Audio | Grammar in Context 7e",
+            "type": "url",
+            "url": "https://eltngl.com/sites/grammarincontextseries/student-resources/level-2/level-2-students-book-audio"
+         }, {
+            "date_added": "13327027443071379",
+            "date_last_used": "13335251814986913",
+            "guid": "f8a9c987-3529-4414-adf4-a11222b46040",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "▷ Lectura Rápida | Aumenta tu velocidad de lectura con esto",
+            "type": "url",
+            "url": "https://lecturarapidaycomprension.com/"
+         }, {
+            "date_added": "13328080546067101",
+            "date_last_used": "0",
+            "guid": "139fe0df-5745-48b6-b7cb-11a34ca61723",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "JMeter Performance Metrics | Tips | Blazemeter by Perforce",
+            "type": "url",
+            "url": "https://www.blazemeter.com/blog/jmeter-performance-metrics"
+         }, {
+            "date_added": "13331882644507667",
+            "date_last_used": "0",
+            "guid": "4ebc5238-c9fd-4ce4-8251-390adf6e163c",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Home - qavalidation",
+            "type": "url",
+            "url": "https://qavalidation.com/"
+         }, {
+            "date_added": "13332041640552839",
+            "date_last_used": "0",
+            "guid": "79e64abb-bc68-4d8c-8f3c-00b52c30f709",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Complete List of Awesome Websites to Practice Automation Testing",
+            "type": "url",
+            "url": "https://ultimateqa.com/dummy-automation-websites/"
+         }, {
+            "date_added": "13332892339511436",
+            "date_last_used": "0",
+            "guid": "f5fa4bd3-941a-4efa-9a91-2f8c50ff07ed",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "QA Automation Expert – Automation solutions to build Test Framework",
+            "type": "url",
+            "url": "https://qaautomation.expert/"
+         }, {
+            "date_added": "13333844926531748",
+            "date_last_used": "13334510187456463",
+            "guid": "e3afe9d8-f02e-46a3-b4d4-320c4d3955b3",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Mecanografia",
+            "type": "url",
+            "url": "https://www.typingclub.com/sportal/program-7.game"
+         }, {
+            "date_added": "13337976947364299",
+            "date_last_used": "13338072008054759",
+            "guid": "fa401344-b988-477e-aa3f-47949b4577dc",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ESIT",
+            "type": "url",
+            "url": "https://esit.gob.sv/"
+         }, {
+            "date_added": "13337977725793830",
+            "date_last_used": "13338072394489170",
+            "guid": "a5daf69a-c791-4780-b729-8627879b1201",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Identidad Digital",
+            "type": "url",
+            "url": "https://login.gob.sv/login"
+         }, {
+            "date_added": "13338488274019177",
+            "date_last_used": "0",
+            "guid": "ff13afb0-4c67-4895-b702-9f968174f60f",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Expect / Should - Chai",
+            "type": "url",
+            "url": "https://www.chaijs.com/api/bdd/"
+         } ],
+         "date_added": "13309377982014644",
+         "date_last_used": "0",
+         "date_modified": "13338488274019177",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13309377982014646",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13309377982014647",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del celular",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

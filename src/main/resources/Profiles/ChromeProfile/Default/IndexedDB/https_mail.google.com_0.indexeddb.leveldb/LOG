@@ -1,0 +1,6 @@
+2023/09/13-08:02:23.237 47e0 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/13-08:02:23.238 47e0 Recovering log #126
+2023/09/13-08:02:23.248 47e0 Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/000126.log 
+2023/09/13-08:02:28.252 3544 Level-0 table #131: started
+2023/09/13-08:02:28.275 3544 Level-0 table #131: 2130229 bytes OK
+2023/09/13-08:02:28.276 3544 Delete type=0 #126

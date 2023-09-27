@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.herokuapp.theinternet.base.BaseTest;
@@ -14,8 +16,8 @@ import com.herokuapp.theinternet.base.TestUtilities;
 
 public class PositiveLoginTests extends TestUtilities {
 	@Test(priority=1, enabled=true)
-
-	public void loginTest() {
+	@Parameters( "ChromeBrowserProfile")
+	public void loginTest(@Optional String browserProfile) {
 
 		/*
 		 * Steps      
@@ -31,7 +33,7 @@ public class PositiveLoginTests extends TestUtilities {
 		
 		driver.get("https://the-internet.herokuapp.com/login");
 		driver.manage().window().maximize();
-	
+	    log.info("Maximizing browser...");
 		//Enter username
 		WebElement username= driver.findElement(By.id("username"));
 		username.sendKeys("tomsmith");

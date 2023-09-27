@@ -1,0 +1,6 @@
+2023/06/21-23:46:55.394 21a0 Creating DB C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_aax-us-east.amazon-adsystem.com_0.indexeddb.leveldb since it was missing.
+2023/06/21-23:46:55.398 21a0 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_aax-us-east.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/21-23:47:16.202 22e0 Level-0 table #5: started
+2023/06/21-23:47:16.204 22e0 Level-0 table #5: 413 bytes OK
+2023/06/21-23:47:16.206 22e0 Delete type=0 #3
+2023/06/21-23:47:16.206 22e0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

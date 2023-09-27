@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Javascripts Alerts Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="JS Alert Test(failed)">
-    <parameter name="message" value="Testing"/>
-    <groups>
-      <run>
-        <include name="regression"/>
-      </run>
-    </groups>
+<suite name="Failed suite [PositiveTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PositiveLoginTests-WP(failed)">
+    <parameter name="ChromeBrowserProfile" value="ChromeProfiles"/>
     <classes>
-      <class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">
+      <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests">
         <methods>
-          <include name="javascriptAlertTest"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.PositiveLoginTests -->
     </classes>
-  </test> <!-- JS Alert Test(failed) -->
-</suite> <!-- Failed suite [Javascripts Alerts Suite] -->
+  </test> <!-- PositiveLoginTests-WP(failed) -->
+</suite> <!-- Failed suite [PositiveTests] -->

@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-26T11:01:38 CST" name="Javascripts Alerts Suite" finished-at="2023-09-26T11:01:46 CST" duration-ms="7832">
+  <suite started-at="2023-09-26T18:19:20 CST" name="PositiveTests" finished-at="2023-09-26T18:19:31 CST" duration-ms="11190">
     <groups>
-      <group name="regression">
-        <method signature="JavascriptAlertsTests.javascriptAlertTest()[pri:1, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" name="javascriptAlertTest" class="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests"/>
-      </group> <!-- regression -->
     </groups>
-    <test started-at="2023-09-26T11:01:38 CST" name="JS Alert Test" finished-at="2023-09-26T11:01:46 CST" duration-ms="7832">
-      <class name="com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" started-at="2023-09-26T11:01:38 CST" name="setUp" finished-at="2023-09-26T11:01:40 CST" duration-ms="2275" status="PASS">
+    <test started-at="2023-09-26T18:19:20 CST" name="PositiveLoginTests-WP" finished-at="2023-09-26T18:19:26 CST" duration-ms="5715">
+      <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@7161d8d1]" started-at="2023-09-26T18:19:20 CST" name="setUp" finished-at="2023-09-26T18:19:22 CST" duration-ms="2120" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests.javascriptAlertTest()]]>
+                <![CDATA[public void com.herokuapp.theinternet.loginpagetest.PositiveLoginTests.loginTest(java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -24,66 +21,75 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@f1dd5b4]]>
+                <![CDATA[ChromeProfiles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@5562c2c9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="javascriptAlertTest()[pri:1, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" started-at="2023-09-26T11:01:40 CST" name="javascriptAlertTest" finished-at="2023-09-26T11:01:45 CST" duration-ms="5275" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [I am a JS Alert!] but found [I am a JS Alert],
-The results are differents expected [You successfully clicked an alert!] but found [You successfully clicked an alert]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [I am a JS Alert!] but found [I am a JS Alert],
-The results are differents expected [You successfully clicked an alert!] but found [You successfully clicked an alert]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests.javascriptAlertTest(JavascriptAlertsTests.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="loginTest(java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@7161d8d1]" started-at="2023-09-26T18:19:22 CST" name="loginTest" finished-at="2023-09-26T18:19:25 CST" duration-ms="3289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeProfiles]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- javascriptAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests@53fb3dab]" started-at="2023-09-26T11:01:45 CST" name="tearDown" finished-at="2023-09-26T11:01:46 CST" duration-ms="231" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@7161d8d1]" started-at="2023-09-26T18:19:25 CST" name="tearDown" finished-at="2023-09-26T18:19:26 CST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.javascriptalertstest.JavascriptAlertsTests -->
-    </test> <!-- JS Alert Test -->
-  </suite> <!-- Javascripts Alerts Suite -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.PositiveLoginTests -->
+    </test> <!-- PositiveLoginTests-WP -->
+    <test started-at="2023-09-26T18:19:26 CST" name="PositiveLoginTests-WOP" finished-at="2023-09-26T18:19:31 CST" duration-ms="5440">
+      <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@5c80cf32]" started-at="2023-09-26T18:19:26 CST" name="setUp" finished-at="2023-09-26T18:19:26 CST" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.loginpagetest.PositiveLoginTests.loginTest(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@673c4f6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String)[pri:1, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@5c80cf32]" started-at="2023-09-26T18:19:26 CST" name="loginTest" finished-at="2023-09-26T18:19:31 CST" duration-ms="4433" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetest.PositiveLoginTests@5c80cf32]" started-at="2023-09-26T18:19:31 CST" name="tearDown" finished-at="2023-09-26T18:19:31 CST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetest.PositiveLoginTests -->
+    </test> <!-- PositiveLoginTests-WOP -->
+  </suite> <!-- PositiveTests -->
 </testng-results>

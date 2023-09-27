@@ -2,8 +2,14 @@
   
 <suite name="PositiveTests" verbose="1" >
 
-  <test name="PositiveLoginTests">
-    <classes>
+  <test name="PositiveLoginTests-WP">
+	  <parameter name="ChromeBrowserProfile" value="ChromeProfiles"></parameter>
+    <classes>		
+      <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests"/>
+    </classes>
+  </test>
+  <test name="PositiveLoginTests-WOP">
+	     <classes>		
       <class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests"/>
     </classes>
   </test>

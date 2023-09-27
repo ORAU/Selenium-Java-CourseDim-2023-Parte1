@@ -1,0 +1,25 @@
+2023/09/09-22:53:28.093 2210 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\shared_proto_db/MANIFEST-000001
+2023/09/09-22:53:28.094 2210 Recovering log #25
+2023/09/09-22:53:28.094 2210 Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\shared_proto_db/000025.log 
+2023/09/18-15:33:17.966 3544 Level-0 table #30: started
+2023/09/18-15:33:17.977 3544 Level-0 table #30: 105187 bytes OK
+2023/09/18-15:33:17.980 3544 Delete type=0 #25
+2023/09/18-17:18:14.941 3544 Level-0 table #32: started
+2023/09/18-17:18:14.949 3544 Level-0 table #32: 82471 bytes OK
+2023/09/18-17:18:14.951 3544 Delete type=0 #29
+2023/09/18-19:05:45.077 3544 Level-0 table #34: started
+2023/09/18-19:05:45.094 3544 Level-0 table #34: 81494 bytes OK
+2023/09/18-19:05:45.096 3544 Delete type=0 #31
+2023/09/21-21:33:44.310 3544 Compacting 2@0 + 1@1 files
+2023/09/21-21:33:44.319 3544 Generated table #35@0: 771 keys, 28931 bytes
+2023/09/21-21:33:44.319 3544 Compacted 2@0 + 1@1 files => 28931 bytes
+2023/09/21-21:33:44.320 3544 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/21-21:33:44.321 3544 Delete type=2 #30
+2023/09/21-21:33:44.322 3544 Delete type=2 #32
+2023/09/21-21:33:44.323 3544 Delete type=2 #34
+2023/09/22-09:44:01.231 3544 Compacting 1@1 + 1@2 files
+2023/09/22-09:44:01.235 3544 Generated table #36@1: 378 keys, 37145 bytes
+2023/09/22-09:44:01.235 3544 Compacted 1@1 + 1@2 files => 37145 bytes
+2023/09/22-09:44:01.236 3544 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/22-09:44:01.237 3544 Delete type=2 #27
+2023/09/22-09:44:01.238 3544 Delete type=2 #35

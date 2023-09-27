@@ -1,0 +1,15 @@
+2023/09/26-07:26:57.923 21dc Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/26-07:26:57.923 21dc Recovering log #59
+2023/09/26-07:26:57.924 21dc Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_docs.google.com_0.indexeddb.leveldb/000059.log 
+2023/09/26-07:27:00.129 2948 Level-0 table #64: started
+2023/09/26-07:27:00.131 2948 Level-0 table #64: 209 bytes OK
+2023/09/26-07:27:00.132 2948 Delete type=0 #59
+2023/09/26-07:27:00.132 2948 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/26-07:27:00.132 2948 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 1153 : 1
+2023/09/26-07:27:00.132 2948 Compacting 1@1 + 1@2 files
+2023/09/26-07:27:00.135 2948 Generated table #65@1: 271 keys, 58294 bytes
+2023/09/26-07:27:00.135 2948 Compacted 1@1 + 1@2 files => 58294 bytes
+2023/09/26-07:27:00.136 2948 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/26-07:27:00.136 2948 Delete type=2 #61
+2023/09/26-07:27:00.136 2948 Delete type=2 #64
+2023/09/26-07:27:00.136 2948 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 1153 : 1 .. (end); will stop at (end)

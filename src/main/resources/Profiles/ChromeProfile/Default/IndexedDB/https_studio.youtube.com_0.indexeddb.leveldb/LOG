@@ -1,0 +1,15 @@
+2023/09/08-18:00:51.045 460c Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/08-18:00:51.045 460c Recovering log #75
+2023/09/08-18:00:51.046 460c Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_studio.youtube.com_0.indexeddb.leveldb/000075.log 
+2023/09/09-13:28:36.888 460c Level-0 table #80: started
+2023/09/09-13:28:36.890 460c Level-0 table #80: 209 bytes OK
+2023/09/09-13:28:36.895 460c Delete type=0 #75
+2023/09/09-13:28:36.895 460c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/09-13:28:36.895 460c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 222 : 1
+2023/09/09-13:28:36.896 460c Compacting 1@1 + 1@2 files
+2023/09/09-13:28:36.897 460c Generated table #81@1: 51 keys, 1078 bytes
+2023/09/09-13:28:36.897 460c Compacted 1@1 + 1@2 files => 1078 bytes
+2023/09/09-13:28:36.897 460c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/09-13:28:36.898 460c Delete type=2 #77
+2023/09/09-13:28:36.898 460c Delete type=2 #80
+2023/09/09-13:28:36.898 460c Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 222 : 1 .. (end); will stop at (end)

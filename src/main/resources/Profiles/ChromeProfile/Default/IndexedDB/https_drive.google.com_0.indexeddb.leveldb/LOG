@@ -1,0 +1,21 @@
+2023/09/26-12:01:06.890 21dc Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/26-12:01:06.890 21dc Recovering log #76
+2023/09/26-12:01:06.897 21dc Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/000076.log 
+2023/09/26-12:01:25.106 21dc Compacting 1@1 + 1@2 files
+2023/09/26-12:01:25.112 21dc Generated table #79@1: 133 keys, 184947 bytes
+2023/09/26-12:01:25.112 21dc Compacted 1@1 + 1@2 files => 184947 bytes
+2023/09/26-12:01:25.112 21dc compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/26-12:01:25.113 21dc Delete type=2 #75
+2023/09/26-12:01:25.113 21dc Delete type=2 #77
+2023/09/26-12:03:21.085 2948 Level-0 table #81: started
+2023/09/26-12:03:21.090 2948 Level-0 table #81: 1295483 bytes OK
+2023/09/26-12:03:21.092 2948 Delete type=0 #76
+2023/09/26-12:03:21.094 2948 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/26-12:03:21.094 2948 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01}\x00k\x00=\x00b\x00o\x00q\x00-\x00d\x00r\x00i\x00v\x00e\x00.\x00D\x00r\x00i\x00v\x00e\x00E\x00c\x00m\x00O\x00n\x00e\x00D\x00e\x00t\x00a\x00i\x00l\x00s\x00P\x00a\x00n\x00e\x00U\x00i\x00.\x00e\x00s\x00.\x00i\x004\x00A\x006\x00m\x00s\x003\x00e\x00Q\x00R\x00Y\x00.\x00e\x00s\x005\x00.\x00O\x00/\x00c\x00k\x00=\x00b\x00o\x00q\x00-\x00d\x00r\x00i\x00v\x00e\x00.\x00D\x00r\x00i\x00v\x00e\x00E\x00c\x00m\x00O\x00n\x00e\x00D\x00e\x00t\x00a\x00i\x00l\x00s\x00P\x00a\x00n\x00e\x00U\x00i\x00.\x00w\x00s\x00f\x00p\x00e\x00v\x00O\x00-\x00q\x00p\x00s\x00.\x00L\x00.\x00B\x001\x00.\x00O\x00/\x00a\x00m\x00=\x00A\x00I\x00B\x00p\x00A\x00A\x00I' @ 73290 : 1
+2023/09/26-12:03:21.094 2948 Compacting 1@1 + 1@2 files
+2023/09/26-12:03:21.100 2948 Generated table #82@1: 130 keys, 137963 bytes
+2023/09/26-12:03:21.100 2948 Compacted 1@1 + 1@2 files => 137963 bytes
+2023/09/26-12:03:21.101 2948 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/26-12:03:21.101 2948 Delete type=2 #79
+2023/09/26-12:03:21.101 2948 Delete type=2 #81
+2023/09/26-12:03:21.102 2948 Manual compaction at level-1 from '\x00\x02\x01\x02\x01}\x00k\x00=\x00b\x00o\x00q\x00-\x00d\x00r\x00i\x00v\x00e\x00.\x00D\x00r\x00i\x00v\x00e\x00E\x00c\x00m\x00O\x00n\x00e\x00D\x00e\x00t\x00a\x00i\x00l\x00s\x00P\x00a\x00n\x00e\x00U\x00i\x00.\x00e\x00s\x00.\x00i\x004\x00A\x006\x00m\x00s\x003\x00e\x00Q\x00R\x00Y\x00.\x00e\x00s\x005\x00.\x00O\x00/\x00c\x00k\x00=\x00b\x00o\x00q\x00-\x00d\x00r\x00i\x00v\x00e\x00.\x00D\x00r\x00i\x00v\x00e\x00E\x00c\x00m\x00O\x00n\x00e\x00D\x00e\x00t\x00a\x00i\x00l\x00s\x00P\x00a\x00n\x00e\x00U\x00i\x00.\x00w\x00s\x00f\x00p\x00e\x00v\x00O\x00-\x00q\x00p\x00s\x00.\x00L\x00.\x00B\x001\x00.\x00O\x00/\x00a\x00m\x00=\x00A\x00I\x00B\x00p\x00A\x00A\x00I' @ 73290 : 1 .. (end); will stop at (end)

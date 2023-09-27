@@ -1,0 +1,6 @@
+2023/09/18-14:52:49.461 47e0 Creating DB C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_ubunlog.com_0.indexeddb.leveldb since it was missing.
+2023/09/18-14:52:49.468 47e0 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_ubunlog.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/18-14:53:25.418 3544 Level-0 table #5: started
+2023/09/18-14:53:25.421 3544 Level-0 table #5: 5819 bytes OK
+2023/09/18-14:53:25.423 3544 Delete type=0 #3
+2023/09/18-14:53:25.423 3544 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

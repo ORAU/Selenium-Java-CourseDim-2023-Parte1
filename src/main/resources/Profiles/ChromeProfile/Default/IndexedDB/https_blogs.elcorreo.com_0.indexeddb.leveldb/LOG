@@ -1,0 +1,6 @@
+2023/03/07-12:38:38.419 1948 Creating DB C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_blogs.elcorreo.com_0.indexeddb.leveldb since it was missing.
+2023/03/07-12:38:38.422 1948 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_blogs.elcorreo.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/07-12:38:40.436 82fc Level-0 table #5: started
+2023/03/07-12:38:40.437 82fc Level-0 table #5: 1513 bytes OK
+2023/03/07-12:38:40.438 82fc Delete type=0 #3
+2023/03/07-12:38:40.438 82fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

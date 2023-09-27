@@ -1,0 +1,15 @@
+2023/09/12-17:22:19.892 47e0 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_j17lt.csb.app_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/12-17:22:19.892 47e0 Recovering log #7
+2023/09/12-17:22:19.893 47e0 Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_j17lt.csb.app_0.indexeddb.leveldb/000007.log 
+2023/09/12-17:23:10.373 3544 Level-0 table #12: started
+2023/09/12-17:23:10.378 3544 Level-0 table #12: 38398 bytes OK
+2023/09/12-17:23:10.380 3544 Delete type=0 #7
+2023/09/12-17:23:10.380 3544 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/12-17:23:10.380 3544 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x03\x00\xb0+?\xbb\xa8xB\x00\x01U\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00p\x00r\x00o\x00d\x00-\x00p\x00a\x00c\x00k\x00a\x00g\x00e\x00r\x00-\x00p\x00a\x00c\x00k\x00a\x00g\x00e\x00s\x00.\x00c\x00o\x00d\x00e\x00s\x00a\x00n\x00d\x00b\x00o\x00x\x00.\x00i\x00o\x00/\x00v\x002\x00/\x00p\x00a\x00c\x00k\x00a\x00g\x00e\x00s\x00/\x00@\x00b\x00a\x00b\x00e\x00l\x00/\x00r\x00u\x00n\x00t\x00i\x00m\x00e\x00/\x007\x00.\x002\x002\x00.\x001\x005\x00.\x00j\x00s\x00o\x00n' @ 2214 : 1
+2023/09/12-17:23:10.381 3544 Compacting 1@1 + 1@2 files
+2023/09/12-17:23:10.383 3544 Generated table #13@1: 141 keys, 5448 bytes
+2023/09/12-17:23:10.383 3544 Compacted 1@1 + 1@2 files => 5448 bytes
+2023/09/12-17:23:10.384 3544 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/12-17:23:10.384 3544 Delete type=2 #9
+2023/09/12-17:23:10.384 3544 Delete type=2 #12
+2023/09/12-17:23:10.384 3544 Manual compaction at level-1 from '\x00\x04\x01\x1f\x03\x00\xb0+?\xbb\xa8xB\x00\x01U\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00p\x00r\x00o\x00d\x00-\x00p\x00a\x00c\x00k\x00a\x00g\x00e\x00r\x00-\x00p\x00a\x00c\x00k\x00a\x00g\x00e\x00s\x00.\x00c\x00o\x00d\x00e\x00s\x00a\x00n\x00d\x00b\x00o\x00x\x00.\x00i\x00o\x00/\x00v\x002\x00/\x00p\x00a\x00c\x00k\x00a\x00g\x00e\x00s\x00/\x00@\x00b\x00a\x00b\x00e\x00l\x00/\x00r\x00u\x00n\x00t\x00i\x00m\x00e\x00/\x007\x00.\x002\x002\x00.\x001\x005\x00.\x00j\x00s\x00o\x00n' @ 2214 : 1 .. (end); will stop at (end)

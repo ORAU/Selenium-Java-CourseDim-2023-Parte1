@@ -1,0 +1,24 @@
+2023/09/22-13:16:02.361 21dc Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/22-13:16:02.362 21dc Recovering log #986
+2023/09/22-13:16:02.370 21dc Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000986.log 
+2023/09/22-17:36:17.988 2948 Level-0 table #991: started
+2023/09/22-17:36:18.000 2948 Level-0 table #991: 1384312 bytes OK
+2023/09/22-17:36:18.002 2948 Delete type=0 #986
+2023/09/22-18:51:04.255 2948 Compacting 1@1 + 1@2 files
+2023/09/22-18:51:04.271 2948 Generated table #992@1: 552 keys, 54919 bytes
+2023/09/22-18:51:04.271 2948 Compacted 1@1 + 1@2 files => 54919 bytes
+2023/09/22-18:51:04.272 2948 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/22-18:51:04.273 2948 Delete type=2 #988
+2023/09/22-18:51:04.273 2948 Delete type=2 #991
+2023/09/25-15:53:15.345 2948 Level-0 table #994: started
+2023/09/25-15:53:15.357 2948 Level-0 table #994: 817861 bytes OK
+2023/09/25-15:53:15.358 2948 Delete type=0 #990
+2023/09/25-15:53:15.358 2948 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/25-15:53:15.358 2948 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x1c\x01 \x03\x00\x00\x00\x00\x00\x00\xf0?\x00\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1810374 : 1
+2023/09/25-15:53:15.358 2948 Compacting 1@1 + 1@2 files
+2023/09/25-15:53:15.363 2948 Generated table #995@1: 509 keys, 36230 bytes
+2023/09/25-15:53:15.363 2948 Compacted 1@1 + 1@2 files => 36230 bytes
+2023/09/25-15:53:15.363 2948 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/25-15:53:15.363 2948 Delete type=2 #992
+2023/09/25-15:53:15.363 2948 Delete type=2 #994
+2023/09/25-15:53:15.364 2948 Manual compaction at level-1 from '\x00\x1c\x01 \x03\x00\x00\x00\x00\x00\x00\xf0?\x00\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1810374 : 1 .. (end); will stop at (end)

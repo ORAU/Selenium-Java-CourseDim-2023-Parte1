@@ -1,0 +1,15 @@
+2023/09/22-15:15:31.054 21dc Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/22-15:15:31.055 21dc Recovering log #69
+2023/09/22-15:15:31.058 21dc Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/000069.log 
+2023/09/22-15:46:47.418 2948 Level-0 table #74: started
+2023/09/22-15:46:47.429 2948 Level-0 table #74: 3988413 bytes OK
+2023/09/22-15:46:47.431 2948 Delete type=0 #69
+2023/09/22-20:14:30.222 2948 Compacting 1@1 + 1@2 files
+2023/09/22-20:14:30.241 2948 Generated table #75@1: 133 keys, 188447 bytes
+2023/09/22-20:14:30.241 2948 Compacted 1@1 + 1@2 files => 188447 bytes
+2023/09/22-20:14:30.242 2948 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/22-20:14:30.242 2948 Delete type=2 #71
+2023/09/22-20:14:30.242 2948 Delete type=2 #74
+2023/09/25-07:09:37.471 2948 Level-0 table #77: started
+2023/09/25-07:09:37.518 2948 Level-0 table #77: 4079445 bytes OK
+2023/09/25-07:09:37.521 2948 Delete type=0 #73

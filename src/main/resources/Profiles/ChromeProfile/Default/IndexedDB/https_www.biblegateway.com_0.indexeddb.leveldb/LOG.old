@@ -1,0 +1,6 @@
+2023/07/26-12:08:33.090 2430 Creating DB C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.biblegateway.com_0.indexeddb.leveldb since it was missing.
+2023/07/26-12:08:33.094 2430 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.biblegateway.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/26-12:08:42.666 3c80 Level-0 table #5: started
+2023/07/26-12:08:42.668 3c80 Level-0 table #5: 3476 bytes OK
+2023/07/26-12:08:42.670 3c80 Delete type=0 #3
+2023/07/26-12:08:42.671 3c80 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

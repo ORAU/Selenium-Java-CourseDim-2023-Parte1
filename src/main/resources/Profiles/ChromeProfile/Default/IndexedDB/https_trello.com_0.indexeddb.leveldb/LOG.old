@@ -1,0 +1,21 @@
+2023/09/12-14:16:44.321 47e0 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_trello.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/12-14:16:44.322 47e0 Recovering log #24
+2023/09/12-14:16:44.323 47e0 Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_trello.com_0.indexeddb.leveldb/000024.log 
+2023/09/12-15:08:45.538 47e0 Level-0 table #29: started
+2023/09/12-15:08:45.556 47e0 Level-0 table #29: 1769263 bytes OK
+2023/09/12-15:08:45.559 47e0 Delete type=0 #24
+2023/09/12-15:08:46.296 47e0 Compacting 1@1 + 1@2 files
+2023/09/12-15:08:46.327 47e0 Generated table #30@1: 6136 keys, 434665 bytes
+2023/09/12-15:08:46.327 47e0 Compacted 1@1 + 1@2 files => 434665 bytes
+2023/09/12-15:08:46.328 47e0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/12-15:08:46.328 47e0 Delete type=2 #26
+2023/09/12-15:08:46.328 47e0 Delete type=2 #29
+2023/09/12-15:49:11.191 3544 Level-0 table #32: started
+2023/09/12-15:49:11.233 3544 Level-0 table #32: 1762231 bytes OK
+2023/09/12-15:49:11.234 3544 Delete type=0 #28
+2023/09/12-15:49:19.495 3544 Compacting 1@1 + 1@2 files
+2023/09/12-15:49:19.510 3544 Generated table #33@1: 7061 keys, 507778 bytes
+2023/09/12-15:49:19.510 3544 Compacted 1@1 + 1@2 files => 507778 bytes
+2023/09/12-15:49:19.510 3544 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/12-15:49:19.511 3544 Delete type=2 #30
+2023/09/12-15:49:19.511 3544 Delete type=2 #32

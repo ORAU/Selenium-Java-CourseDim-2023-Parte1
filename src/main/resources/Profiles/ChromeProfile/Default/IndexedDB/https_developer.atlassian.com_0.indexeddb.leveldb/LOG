@@ -1,0 +1,15 @@
+2023/09/12-14:11:04.873 47e0 Reusing MANIFEST C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_developer.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/12-14:11:04.874 47e0 Recovering log #11
+2023/09/12-14:11:04.874 47e0 Reusing old log C:\Users\orlan\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_developer.atlassian.com_0.indexeddb.leveldb/000011.log 
+2023/09/13-16:36:08.918 3544 Level-0 table #16: started
+2023/09/13-16:36:08.922 3544 Level-0 table #16: 72189 bytes OK
+2023/09/13-16:36:08.923 3544 Delete type=0 #11
+2023/09/13-16:36:08.923 3544 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/13-16:36:08.923 3544 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01"\x04\x02\x01\x09\x00m\x00a\x00r\x00k\x00e\x00t\x00i\x00n\x00g\x03\x00\x80\xadu\xb1\xa8xB\x00\x01$\x008\x003\x00e\x001\x006\x002\x008\x004\x00-\x000\x002\x001\x007\x00-\x004\x00d\x00f\x003\x00-\x009\x009\x00c\x002\x00-\x00f\x003\x009\x00d\x003\x00c\x004\x002\x003\x007\x009\x005' @ 2599 : 1
+2023/09/13-16:36:08.923 3544 Compacting 1@1 + 1@2 files
+2023/09/13-16:36:08.924 3544 Generated table #17@1: 165 keys, 10117 bytes
+2023/09/13-16:36:08.924 3544 Compacted 1@1 + 1@2 files => 10117 bytes
+2023/09/13-16:36:08.924 3544 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/13-16:36:08.924 3544 Delete type=2 #13
+2023/09/13-16:36:08.924 3544 Delete type=2 #16
+2023/09/13-16:36:08.925 3544 Manual compaction at level-1 from '\x00\x01\x01"\x04\x02\x01\x09\x00m\x00a\x00r\x00k\x00e\x00t\x00i\x00n\x00g\x03\x00\x80\xadu\xb1\xa8xB\x00\x01$\x008\x003\x00e\x001\x006\x002\x008\x004\x00-\x000\x002\x001\x007\x00-\x004\x00d\x00f\x003\x00-\x009\x009\x00c\x002\x00-\x00f\x003\x009\x00d\x003\x00c\x004\x002\x003\x007\x009\x005' @ 2599 : 1 .. (end); will stop at (end)

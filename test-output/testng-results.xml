@@ -1,91 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-27T12:10:10 CST" name="CheckboxesTests" finished-at="2023-09-27T12:10:20 CST" duration-ms="9708">
+  <suite started-at="2023-09-29T10:31:18 CST" name="DropdownTests" finished-at="2023-09-29T10:31:45 CST" duration-ms="27371">
     <groups>
     </groups>
-    <test started-at="2023-09-27T12:10:10 CST" name="CheckboxesTests-Android-Mobile" finished-at="2023-09-27T12:10:16 CST" duration-ms="5559">
-      <class name="com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@7161d8d1]" started-at="2023-09-27T12:10:10 CST" name="setUp" finished-at="2023-09-27T12:10:13 CST" duration-ms="2328" status="PASS">
+    <test started-at="2023-09-29T10:31:18 CST" name="Dropdown-CH" finished-at="2023-09-29T10:31:27 CST" duration-ms="8974">
+      <class name="com.herokuapp.theinternet.dropdowntest.DropdownTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@5f049ea1]" started-at="2023-09-29T10:31:18 CST" name="setUp" finished-at="2023-09-29T10:31:21 CST" duration-ms="3056" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest.checkboxTest()]]>
+                <![CDATA[public void com.herokuapp.theinternet.dropdowntest.DropdownTest.dropdownOptionTwoTest()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[chromeheadless]]>
               </value>
             </param>
             <param index="2">
               <value is-null="true"/>
             </param>
             <param index="3">
-              <value>
-                <![CDATA[Samsung Galaxy S8+]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="4">
               <value>
-                <![CDATA[org.testng.TestRunner@7d32e714]]>
+                <![CDATA[org.testng.TestRunner@53016b11]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkboxTest()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@7161d8d1]" started-at="2023-09-27T12:10:13 CST" name="checkboxTest" finished-at="2023-09-27T12:10:15 CST" duration-ms="2657" status="PASS">
+        <test-method signature="dropdownOptionTwoTest()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@5f049ea1]" started-at="2023-09-29T10:31:21 CST" name="dropdownOptionTwoTest" finished-at="2023-09-29T10:31:26 CST" duration-ms="5739" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@7161d8d1]" started-at="2023-09-27T12:10:15 CST" name="tearDown" finished-at="2023-09-27T12:10:16 CST" duration-ms="510" status="PASS">
+        </test-method> <!-- dropdownOptionTwoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@5f049ea1]" started-at="2023-09-29T10:31:26 CST" name="tearDown" finished-at="2023-09-29T10:31:27 CST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest -->
-    </test> <!-- CheckboxesTests-Android-Mobile -->
-    <test started-at="2023-09-27T12:10:16 CST" name="CheckboxesTests-IOS-Mobile" finished-at="2023-09-27T12:10:20 CST" duration-ms="4112">
-      <class name="com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@5c80cf32]" started-at="2023-09-27T12:10:16 CST" name="setUp" finished-at="2023-09-27T12:10:17 CST" duration-ms="950" status="PASS">
+      </class> <!-- com.herokuapp.theinternet.dropdowntest.DropdownTest -->
+    </test> <!-- Dropdown-CH -->
+    <test started-at="2023-09-29T10:31:27 CST" name="Dropdown-FH" finished-at="2023-09-29T10:31:38 CST" duration-ms="11337">
+      <class name="com.herokuapp.theinternet.dropdowntest.DropdownTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@194fad1]" started-at="2023-09-29T10:31:27 CST" name="setUp" finished-at="2023-09-29T10:31:31 CST" duration-ms="4200" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest.checkboxTest()]]>
+                <![CDATA[public void com.herokuapp.theinternet.dropdowntest.DropdownTest.dropdownOptionTwoTest()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefoxheadless]]>
               </value>
             </param>
             <param index="2">
               <value is-null="true"/>
             </param>
             <param index="3">
-              <value>
-                <![CDATA[iPhone 12 Pro]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="4">
               <value>
-                <![CDATA[org.testng.TestRunner@eb6ec6]]>
+                <![CDATA[org.testng.TestRunner@7af327e3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkboxTest()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@5c80cf32]" started-at="2023-09-27T12:10:17 CST" name="checkboxTest" finished-at="2023-09-27T12:10:20 CST" duration-ms="2972" status="PASS">
+        <test-method signature="dropdownOptionTwoTest()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@194fad1]" started-at="2023-09-29T10:31:31 CST" name="dropdownOptionTwoTest" finished-at="2023-09-29T10:31:37 CST" duration-ms="6393" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest@5c80cf32]" started-at="2023-09-27T12:10:20 CST" name="tearDown" finished-at="2023-09-27T12:10:20 CST" duration-ms="187" status="PASS">
+        </test-method> <!-- dropdownOptionTwoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@194fad1]" started-at="2023-09-29T10:31:37 CST" name="tearDown" finished-at="2023-09-29T10:31:38 CST" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest -->
-    </test> <!-- CheckboxesTests-IOS-Mobile -->
-  </suite> <!-- CheckboxesTests -->
+      </class> <!-- com.herokuapp.theinternet.dropdowntest.DropdownTest -->
+    </test> <!-- Dropdown-FH -->
+    <test started-at="2023-09-29T10:31:38 CST" name="Dropdown-HU" finished-at="2023-09-29T10:31:45 CST" duration-ms="6968">
+      <class name="com.herokuapp.theinternet.dropdowntest.DropdownTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@65f8f5ae]" started-at="2023-09-29T10:31:38 CST" name="setUp" finished-at="2023-09-29T10:31:39 CST" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.dropdowntest.DropdownTest.dropdownOptionTwoTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[htmlunit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@743d0d44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dropdownOptionTwoTest()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@65f8f5ae]" started-at="2023-09-29T10:31:39 CST" name="dropdownOptionTwoTest" finished-at="2023-09-29T10:31:45 CST" duration-ms="6251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownOptionTwoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@65f8f5ae]" started-at="2023-09-29T10:31:45 CST" name="tearDown" finished-at="2023-09-29T10:31:45 CST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.dropdowntest.DropdownTest -->
+    </test> <!-- Dropdown-HU -->
+    <test started-at="2023-09-29T10:31:45 CST" name="Dropdown-PH" finished-at="2023-09-29T10:31:45 CST" duration-ms="43">
+      <class name="com.herokuapp.theinternet.dropdowntest.DropdownTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@5c7933ad]" started-at="2023-09-29T10:31:45 CST" name="setUp" finished-at="2023-09-29T10:31:45 CST" duration-ms="10" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.dropdowntest.DropdownTest.dropdownOptionTwoTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[phantomjs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@42a0786f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.phantomjs.PhantomJSDriverService.checkExecutable(Ljava/io/File;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.phantomjs.PhantomJSDriverService.checkExecutable(Ljava/io/File;)V
+at org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)
+at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)
+at org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(PhantomJSDriver.java:105)
+at com.herokuapp.theinternet.base.BrowserDriverFactory.createDriver(BrowserDriverFactory.java:71)
+at com.herokuapp.theinternet.base.BaseTest.setUp(BaseTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dropdownOptionTwoTest()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@5c7933ad]" started-at="2023-09-29T10:31:45 CST" name="dropdownOptionTwoTest" finished-at="2023-09-29T10:31:45 CST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.phantomjs.PhantomJSDriverService.checkExecutable(Ljava/io/File;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.phantomjs.PhantomJSDriverService.checkExecutable(Ljava/io/File;)V
+at org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)
+at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)
+at org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(PhantomJSDriver.java:105)
+at com.herokuapp.theinternet.base.BrowserDriverFactory.createDriver(BrowserDriverFactory.java:71)
+at com.herokuapp.theinternet.base.BaseTest.setUp(BaseTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownOptionTwoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.dropdowntest.DropdownTest@5c7933ad]" started-at="2023-09-29T10:31:45 CST" name="tearDown" finished-at="2023-09-29T10:31:45 CST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.herokuapp.theinternet.base.BaseTest.tearDown(BaseTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:613)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.dropdowntest.DropdownTest -->
+    </test> <!-- Dropdown-PH -->
+  </suite> <!-- DropdownTests -->
 </testng-results>

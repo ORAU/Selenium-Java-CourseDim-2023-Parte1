@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [CheckboxesTests]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="CheckboxesTests-Android-Mobile(failed)">
-    <parameter name="deviceName" value="Samsung Galaxy S8+"/>
+<suite name="Failed suite [DropdownTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Dropdown-PH(failed)">
+    <parameter name="browser" value="phantomjs"/>
     <classes>
-      <class name="com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest">
+      <class name="com.herokuapp.theinternet.dropdowntest.DropdownTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="checkboxTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest -->
-    </classes>
-  </test> <!-- CheckboxesTests-Android-Mobile(failed) -->
-  <test thread-count="5" name="CheckboxesTests-IOS-Mobile(failed)">
-    <parameter name="deviceName" value="iPhone 12 Pro"/>
-    <classes>
-      <class name="com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest">
-        <methods>
+          <include name="dropdownOptionTwoTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="checkboxTest"/>
         </methods>
-      </class> <!-- com.herokuapp.theinternet.checkboxpagetest.CheckboxesPOMTest -->
+      </class> <!-- com.herokuapp.theinternet.dropdowntest.DropdownTest -->
     </classes>
-  </test> <!-- CheckboxesTests-IOS-Mobile(failed) -->
-</suite> <!-- Failed suite [CheckboxesTests] -->
+  </test> <!-- Dropdown-PH(failed) -->
+</suite> <!-- Failed suite [DropdownTests] -->
